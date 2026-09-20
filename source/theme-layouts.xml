@@ -1,0 +1,1661 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+  <meta content='width=device-width,initial-scale=1,viewport-fit=cover' name='viewport'/>
+  <meta content='index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1' name='robots'/>
+  <meta content='#ffffff' name='theme-color'/>
+  <meta content='strict-origin-when-cross-origin' name='referrer'/>
+  <title><data:blog.pageTitle/></title>
+  <b:include data='blog' name='all-head-content'/>
+  <link href='https://fonts.googleapis.com' rel='preconnect'/>
+  <link crossorigin='anonymous' href='https://fonts.gstatic.com' rel='preconnect'/>
+  <link crossorigin='anonymous' href='https://ae01.alicdn.com' rel='preconnect'/>
+  <link href='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;family=Noto+Sans:wght@400;500;600;700;800&amp;family=Noto+Sans+Hebrew:wght@400;500;600;700;800&amp;family=Noto+Sans+JP:wght@400;500;600;700;800&amp;family=Noto+Sans+KR:wght@400;500;600;700;800&amp;family=Noto+Sans+Thai:wght@400;500;600;700;800&amp;display=swap' rel='stylesheet'/>
+  <link href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'/>
+  <b:skin><![CDATA[
+:root{--red:#c9a45b;--red2:#a9823d;--text:#15130f;--muted:#756f63;--line:#e9e2d5;--bg:#f8f6f1;--card:#fff;--green:#1f7a4d;--aprinna-black:#050505;--aprinna-gold:#d8ba78;--aprinna-gold-dark:#a9823d;--aprinna-cream:#fbf7ec}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:var(--text);font-family:Inter,Arial,sans-serif;font-size:14px}a{color:inherit;text-decoration:none}.site-shell{max-width:1220px;margin:auto;padding:0 18px}.top-strip{background:#f7f7f7;border-bottom:1px solid #ececec;color:#666;font-size:12px}.top-strip .site-shell{min-height:36px;display:flex;align-items:center;justify-content:space-between;gap:15px}.header-main{background:#fff}.header-main .site-shell{height:76px;display:flex;align-items:center;gap:34px}.brand{font-size:29px;font-weight:900;letter-spacing:-1.6px}.brand span{color:var(--red)}.searchbar{height:44px;display:flex;flex:1;max-width:650px;border:2px solid var(--red);border-radius:7px;overflow:hidden}.searchbar input{min-width:0;flex:1;border:0;outline:0;padding:0 16px;font:inherit}.searchbar button{width:54px;border:0;background:var(--red);color:#fff;font-size:18px;cursor:pointer}.header-actions{margin-left:auto;display:flex;gap:18px;font-size:21px}.menu-toggle{display:none;border:0;background:none;font-size:21px}.mobile-search{display:none}.nav-wrap{border-top:1px solid #f1f1f1;border-bottom:1px solid #e9e9e9}.nav{height:47px;display:flex;align-items:center;gap:34px;font-weight:600}.nav a:hover,.nav .deal{color:var(--red)}.shop-layout{max-width:1220px;margin:28px auto 50px;padding:0 18px;display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:28px}.section-head{display:flex;align-items:flex-end;justify-content:space-between;margin:0 0 18px}.section-head h1{margin:0 0 5px;font-size:24px}.section-head p{margin:0;color:#777}.grid-posts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.index-post{min-width:0}.index-post-inside-wrap{height:100%;border:1px solid #e8e8e8;border-radius:10px;background:#fff;overflow:hidden;display:flex;flex-direction:column;transition:.2s}.index-post-inside-wrap:hover{box-shadow:0 7px 22px rgba(0,0,0,.08);transform:translateY(-2px)}.post-image-wrap{position:relative;background:#fafafa;aspect-ratio:1/1;overflow:hidden}.post-image-link{display:block;width:100%;height:100%}.post-thumb{width:100%;height:100%;object-fit:contain;display:block}.product-badge{position:absolute;z-index:2;left:10px;top:10px;background:var(--red);color:#fff;border-radius:4px;padding:6px 8px;font-size:11px;font-weight:800}.wishlist-dot{position:absolute;right:10px;top:10px;z-index:2;width:32px;height:32px;border-radius:50%;display:grid;place-items:center;background:#fff;box-shadow:0 2px 8px #ddd;color:#777}.post-info{padding:14px 14px 10px;flex:1}.product-meta{display:flex;justify-content:space-between;gap:8px;color:#999;font-size:11px;margin-bottom:8px}.product-meta .store{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.post-title{margin:0;font-size:14px;line-height:1.45;font-weight:600}.index-post .post-title{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:41px}.rating{display:flex;gap:5px;align-items:center;margin-top:8px;font-size:11px;color:#888}.stars{color:#ff9f00;letter-spacing:1px}.price-row{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:11px}.price-main{font-size:20px;font-weight:800;color:var(--red)}.old-price{font-size:12px;color:#aaa;text-decoration:line-through}.index-post-footer{padding:0 14px 14px;display:flex;gap:8px}.button{height:39px;border-radius:6px;display:inline-flex;align-items:center;justify-content:center;font-weight:700}.buy{flex:1;background:var(--red);color:#fff}.quick-view{width:40px;border:1px solid #ddd;border-radius:6px;display:grid;place-items:center}.sidebar .widget,.trust-card{border:1px solid #e8e8e8;border-radius:9px;background:#fff;margin-bottom:18px;padding:17px}.sidebar h3,.widget-title h3{font-size:15px;margin:0 0 13px}.trust-card h3 i{color:var(--green)}.trust-card p{color:#777;line-height:1.6;margin:0}.list-label ul{list-style:none;margin:0;padding:0}.list-label li{border-top:1px solid #f0f0f0}.list-label li:first-child{border-top:0}.list-label a{display:block;padding:9px 0;color:#555}.footer{background:#171717;color:#bbb}.footer-main{padding-top:38px;padding-bottom:32px;display:grid;grid-template-columns:2fr 1fr 1fr;gap:45px}.footer h3{color:#fff;margin:0 0 12px}.footer p{line-height:1.7}.footer-menu{display:flex;flex-direction:column;gap:9px}.copyright{border-top:1px solid #2d2d2d;min-height:56px;display:flex;align-items:center;justify-content:space-between;font-size:12px}.back-top{position:fixed;right:20px;bottom:20px;width:38px;height:38px;border-radius:6px;background:#222;color:#fff;display:none;place-items:center;cursor:pointer}.back-top.show{display:grid}
+/* product page */#breadcrumb{font-size:12px;color:#888;margin-bottom:20px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}#breadcrumb .delimiter{display:inline-block;width:7px;height:7px;margin:0 11px 1px 9px;border-top:1px solid #b8c0cc;border-right:1px solid #b8c0cc;transform:rotate(45deg);vertical-align:middle}.product-detail{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:34px}.image-holder{border:1px solid #eee;border-radius:10px;aspect-ratio:1/1;display:grid;place-items:center;overflow:hidden}.image-holder img{width:100%;height:100%;object-fit:contain}.thumb-list{display:flex;gap:9px;margin-top:10px;overflow:auto}.image-list{width:68px;height:68px;border:1px solid #ddd;border-radius:6px;flex:0 0 auto;overflow:hidden}.image-list.active{border:2px solid var(--red)}.image-list img{width:100%;height:100%;object-fit:cover}.product-kicker{font-size:12px;color:#888;margin-bottom:10px}.product-summary .post-title{font-size:24px;line-height:1.4;font-weight:700}.product-price-box{background:#fff6f6;border-radius:8px;padding:15px;margin:18px 0}.product-price-box .price-main{font-size:30px}.discount{background:var(--red);color:#fff;font-size:11px;font-weight:800;border-radius:4px;padding:5px 7px}.availability{margin-top:8px;color:var(--green);font-size:12px}.buy-panel{border:1px solid #eee;border-radius:9px;padding:15px}.buy-panel-label{font-size:12px;color:#777;margin-bottom:11px}.buy-actions{display:flex;gap:9px}.btn-outline{border:1px solid #ddd;flex:.65}.btn-primary{background:var(--red);color:#fff;flex:1}.benefits{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:14px 0}.benefit{border:1px solid #eee;border-radius:7px;padding:10px;text-align:center}.benefit i{display:block;color:var(--red);font-size:18px;margin-bottom:6px}.benefit strong,.benefit span{display:block;font-size:10px}.benefit span{color:#999;margin-top:3px}.product-specs{border-top:1px solid #eee}.rowline{display:flex;justify-content:space-between;gap:20px;padding:10px 0;border-bottom:1px solid #eee;font-size:12px}.rowline .label{color:#888}.description-box{margin-top:28px;border:1px solid #eee;border-radius:9px;padding:22px}.description-box h2{margin:0 0 12px;font-size:19px}.description-box p{line-height:1.8;color:#666}.native-post-wrap{display:block}.native-post-title{font-size:26px;line-height:1.35;margin:0 0 18px}.native-post-body{line-height:1.75;overflow-wrap:anywhere}.native-post-body img{max-width:100%;height:auto}.evx-enhanced-product{display:none}
+body.evx-item-view{background:#f5f6f8}body.evx-item-view .shop-layout{display:block;max-width:1240px;margin:28px auto 34px;padding:0 18px}body.evx-item-view .sidebar{display:none}body.evx-item-view .main-area{background:#fff;border:1px solid #e7e9ed;border-radius:18px;padding:26px 24px 34px;box-shadow:0 10px 28px rgba(15,23,42,.05)}body.evx-item-view #breadcrumb{margin:0 0 22px;color:#64748b;font-size:13px}body.evx-item-view .product-detail{grid-template-columns:minmax(0,.94fr) minmax(0,1.06fr);gap:36px}body.evx-item-view .image-holder{border:1px solid #e5e7eb;border-radius:14px;padding:24px;aspect-ratio:1/1;background:#fff}body.evx-item-view .image-list{width:72px;height:72px;border-radius:10px;padding:5px;background:#fff}body.evx-item-view .image-list.active{border-color:#ffae00}body.evx-item-view .image-list img{object-fit:contain}body.evx-item-view .product-kicker{font-size:13px;color:#64748b;margin:6px 0 12px}body.evx-item-view .product-summary .post-title{font-size:31px;line-height:1.27;color:#0f172a;margin:0 0 18px}body.evx-item-view .product-price-box{background:#fafafa;border-radius:14px;padding:26px 18px;margin:0 0 18px}body.evx-item-view .product-price-box .price-main{font-size:32px;font-weight:800}body.evx-item-view .discount{background:#fff1d6;color:#e86b00;padding:5px 8px;border-radius:6px}body.evx-item-view .availability{color:#079447;font-weight:700;margin-top:14px}body.evx-item-view .buy-panel{border:1px solid #e5e7eb;border-radius:14px;padding:18px}body.evx-item-view .buy-actions .button{height:52px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:800}body.evx-item-view .btn-outline{border:1px solid #111827;color:#111827;background:#fff}body.evx-item-view .btn-primary{background:#ffae00;color:#111827}body.evx-item-view .benefit{border:1px solid #e5e7eb;border-radius:12px;padding:16px 8px}body.evx-item-view .benefit i{color:#f59e0b}body.evx-item-view .product-specs{border:1px solid #e5e7eb;border-radius:13px;overflow:hidden}body.evx-item-view .rowline{padding:13px 16px;border-bottom:1px solid #e5e7eb}
+body.evx-item-view .item-rating{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+body.evx-item-view .item-rating .item-stars{color:#ffb000;letter-spacing:1px;font-size:18px;line-height:1;white-space:nowrap}
+body.evx-item-view .item-rating strong{color:#111827;font-size:13px}
+body.evx-item-view .item-rating .item-sold{color:#667085;font-size:12px}body.evx-item-view .description-box{border:0;border-top:1px solid #e5e7eb;border-radius:0;padding:24px 0 0;margin-top:28px}@media(max-width:980px){.grid-posts{grid-template-columns:repeat(2,1fr)}.shop-layout{grid-template-columns:1fr}.sidebar{display:none}.product-detail{grid-template-columns:1fr 1fr}.header-main .site-shell{gap:18px}}
+@media(max-width:680px){.top-strip .site-shell>div:last-child{display:none}.header-main .site-shell{height:62px}.header-main .searchbar{display:none}.mobile-search{display:block;padding:9px 0;border-top:1px solid #eee}.mobile-search .searchbar{max-width:none}.menu-toggle{display:block}.nav-wrap{display:none}.nav-wrap.open{display:block}.nav{height:auto;flex-direction:column;align-items:flex-start;padding-top:12px;padding-bottom:12px;gap:0}.nav a{width:100%;padding:10px 0}.shop-layout{margin-top:20px;padding:0 12px}.grid-posts{gap:10px}.post-info{padding:10px}.index-post-footer{padding:0 10px 10px}.product-meta .store{display:none}.price-main{font-size:17px}.old-price{display:none}.product-detail{grid-template-columns:1fr}.product-summary .post-title{font-size:20px}.footer-main{grid-template-columns:1fr;gap:20px}.copyright{flex-direction:column;justify-content:center;gap:5px}.benefits{grid-template-columns:1fr 1fr 1fr}}
+#evx-feed-app{min-height:220px}.evx-loading{padding:50px 10px;color:#888;text-align:center}
+.evx-error{padding:25px;border:1px solid #ffd0d0;background:#fff8f8;border-radius:8px;color:#a33}
+.feed-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.feed-card{border:1px solid #e8e8e8;border-radius:10px;overflow:hidden;background:#fff;display:flex;flex-direction:column}
+.feed-card-image{aspect-ratio:1/1;background:#fafafa;display:block;overflow:hidden}
+.feed-card-image img{width:100%;height:100%;object-fit:contain;display:block}
+.feed-card-image{position:relative}
+.feed-card-discount{position:absolute;left:10px;top:10px;z-index:3;background:#ff4747;color:#fff;border-radius:4px;padding:6px 8px;font-size:11px;line-height:1;font-weight:800;letter-spacing:0;box-shadow:0 1px 2px rgba(0,0,0,.08)}
+.feed-card-body{padding:14px;display:flex;flex-direction:column;gap:10px;flex:1}
+.feed-card-title{font-size:14px;line-height:1.45;font-weight:600;margin:0}
+.feed-card-title a{color:inherit}
+.feed-card-price-row{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap;margin-top:1px}
+.feed-card-price{font-size:20px;font-weight:800;color:var(--red);line-height:1.15}
+.feed-card-old-price{font-size:12px;font-weight:400;color:#aaa;text-decoration:line-through;line-height:1.15}
+.feed-card-actions{display:flex;gap:8px;margin-top:auto}
+.feed-card-actions a{flex:1;height:39px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-weight:700}
+.feed-card-actions .view{background:var(--red);color:#fff}
+.feed-card-actions .details{flex:0 0 42px;border:1px solid #ddd}
+.feed-item-title{font-size:26px;line-height:1.35;margin:0 0 18px}
+.feed-item-body{line-height:1.75;overflow-wrap:anywhere}
+.feed-item-body img{max-width:100%;height:auto}
+@media(max-width:980px){.feed-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:680px){.feed-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.feed-card-body{padding:10px}.feed-card-price{font-size:17px}.feed-card-old-price{font-size:11px}.feed-card-discount{left:7px;top:7px;padding:5px 6px;font-size:10px}}
+
+/* ===== STYLING WIDGET & SIDEBAR ===== */
+.sidebar .widget{margin-bottom:18px;border:1px solid #e8e8e8;border-radius:9px;background:#fff;padding:17px;overflow:hidden}
+.sidebar .widget h2,.sidebar .widget .widget-title{margin:0 0 13px;font-size:15px;font-weight:700;color:#191919}
+.sidebar .widget.PopularPosts,.sidebar .evx-sidebar-popular-widget{padding:0}
+.sidebar .widget.PopularPosts h2,.sidebar .widget.PopularPosts .widget-title,.sidebar .evx-sidebar-popular-widget .widget-title{margin:0;padding:14px 17px;border-bottom:1px solid #eceff2;font-size:15px;font-weight:700;color:#191919}
+.sidebar .widget.PopularPosts .widget-content,.sidebar .evx-sidebar-popular-widget .widget-content{padding:4px 14px!important}
+
+/* Footer Custom Layout Area */
+.footer-widgets{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-bottom:30px}
+.footer-widgets .widget{margin-bottom:0}
+.footer-widgets h2{color:#fff;font-size:15px;margin:0 0 12px;font-weight:700}
+.footer-widgets .widget-content{color:#bbb;font-size:13px;line-height:1.6}
+@media(max-width:768px){.footer-widgets{grid-template-columns:1fr}}
+
+/* ===== EVXRO PRODUCT POST STYLE ===== */
+.post-title.entry-title,.native-post-title{display:none!important}
+.evx-product-page,.evx-product-page *{box-sizing:border-box}
+body.evx-item-view .shop-layout{display:block;max-width:none;margin:28px auto 34px;padding:0}
+body.evx-item-view .sidebar{display:none}
+body.evx-item-view .main-area{background:transparent;border:0;border-radius:0;padding:0;box-shadow:none}
+.evx-product-page{width:min(1320px,calc(100vw - 48px));max-width:1320px;margin:0 0 0 50%;transform:translateX(-50%);background:#fff;border:1px solid #e7eaee;border-radius:16px;padding:26px;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;color:#111827;box-shadow:0 10px 32px rgba(16,24,40,.055);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}
+.evx-breadcrumb{display:flex;align-items:center;flex-wrap:wrap;gap:0;margin:0 0 24px;color:#667085;font-size:13px;font-weight:400;line-height:1.5}
+.evx-breadcrumb .crumb{display:inline-flex;align-items:center;min-width:0;color:#667085;text-decoration:none}
+.evx-breadcrumb a.crumb:hover{color:#111827}
+.evx-breadcrumb .crumb-sep{display:inline-block;width:7px;height:7px;margin:0 11px 1px 9px;border-top:1px solid #b8c0cc;border-right:1px solid #b8c0cc;transform:rotate(45deg);flex:0 0 auto}
+.evx-breadcrumb .current{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:640px}
+.evx-main{display:grid;grid-template-columns:minmax(0,.96fr) minmax(0,1.04fr);gap:36px;align-items:start}
+.evx-image-box{border:1px solid #e5e7eb;border-radius:13px;padding:26px;background:#fff;aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.evx-main-link{display:block;width:100%;height:100%}
+.evx-main-image,.evx-image-box img{width:100%;height:100%;display:block;object-fit:contain}
+.evx-no-image{color:#98a2b3}
+.evx-thumbs{display:flex;gap:10px;margin-top:12px;overflow-x:auto;padding:0 0 4px;scrollbar-width:thin}
+.evx-thumb{display:block;width:70px;height:70px;flex:0 0 70px;border:1px solid #e5e7eb;border-radius:8px;overflow:hidden;background:#fff;padding:4px;box-sizing:border-box}
+.evx-thumb.active{border:2px solid #f5a000;padding:3px}
+.evx-thumb img{display:block;width:100%;height:100%;object-fit:contain}
+.evx-kicker{font-size:12px;color:#667085;margin:6px 0 12px;font-weight:400}
+.evx-rating{display:flex;align-items:center;gap:9px;margin:-10px 0 20px;font-size:14px;line-height:1;flex-wrap:wrap}
+.evx-stars{color:#ffb000;letter-spacing:2px;font-size:20px;white-space:nowrap}
+.evx-rating-value{color:#111827;font-weight:800;font-size:16px}
+.evx-rating-meta{color:#111827;font-weight:400;font-size:15px}
+.evx-rating-divider{color:#111827;font-size:15px;margin:0 1px}
+.evx-title{font-size:27px;line-height:1.32;letter-spacing:-.42px;font-weight:700;margin:0 0 22px;color:#1f2937}
+.evx-price-box{background:#fafafa;border-radius:13px;padding:29px 19px 20px;margin-bottom:20px}
+.evx-price-line{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.evx-price{font-size:34px;line-height:1;font-weight:800;color:#101828;letter-spacing:-.4px}
+.evx-discount{padding:6px 8px;border-radius:7px;background:#fff1d8;color:#e36c00;font-size:11px;font-weight:800}
+.evx-old-price{color:#98a2b3;text-decoration:line-through;font-size:14px}
+.evx-stock{margin-top:22px;color:#079455;font-size:13px;font-weight:700}
+.evx-buy-panel{border:1px solid #e5e7eb;border-radius:13px;padding:20px;margin-bottom:18px}
+.evx-buy-label{font-size:12px;color:#667085;margin-bottom:10px}
+.evx-buy-actions{display:grid;grid-template-columns:.95fr 1.18fr;gap:10px}
+.evx-btn{height:52px;border-radius:9px;display:flex;align-items:center;justify-content:center;text-decoration:none!important;font-size:15px;font-weight:800}
+.evx-btn-details{border:1px solid #475467;color:#101828;background:#fff}
+.evx-btn-buy{background:#ffad08;color:#111827}
+.evx-benefits{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:18px}
+.evx-benefit{border:1px solid #e5e7eb;border-radius:12px;padding:16px 10px;text-align:center;min-height:100px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.evx-benefit .ico{height:24px;display:flex;align-items:center;justify-content:center;font-size:22px;line-height:1;color:#f5a000;margin-bottom:10px}.evx-benefit .ico .fa{font-size:22px;color:#f5a000}
+.evx-benefit strong{font-size:12px;margin-bottom:7px;color:#111827}
+.evx-benefit small{font-size:11px;color:#667085}
+.evx-specs{border:1px solid #e5e7eb;border-radius:12px;overflow:hidden}
+.evx-spec-row{display:grid;grid-template-columns:145px 1fr;gap:8px;padding:13px 16px;border-bottom:1px solid #eaecf0;font-size:13px}
+.evx-spec-row:last-child{border-bottom:0}
+.evx-spec-label{color:#667085}
+.evx-spec-rating{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.evx-spec-stars{color:#ffb000;letter-spacing:1px;font-size:17px;line-height:1;white-space:nowrap}
+.evx-spec-rating strong{color:#111827}
+.evx-spec-sold{color:#667085}
+.evx-about{border-top:1px solid #e5e7eb;margin-top:26px;padding-top:24px}
+.evx-about h2{font-size:19px;margin:0 0 17px;color:#101828;font-weight:800}
+.evx-description p{margin:0 0 12px;color:#475467;font-size:15px;line-height:1.72}
+.evx-description p:last-child{margin-bottom:0}
+@media(max-width:900px){.evx-product-page{width:calc(100vw - 24px);padding:16px;border-radius:14px}.evx-main{grid-template-columns:1fr;gap:24px}.evx-title{font-size:23px}.evx-price{font-size:30px}.evx-breadcrumb .current{max-width:100%}}
+@media(max-width:560px){.evx-product-page{width:calc(100vw - 12px);padding:12px}.evx-image-box{padding:12px}.evx-buy-actions{grid-template-columns:1fr}.evx-benefits{grid-template-columns:1fr}.evx-spec-row{grid-template-columns:105px 1fr}}
+
+/* ===== REFERENCE TYPOGRAPHY + COLOR SYSTEM ===== */
+:root{--red:#c9a45b;--red2:#a9823d;--text:#15130f;--muted:#756f63;--line:#e9e2d5;--bg:#f8f6f1;--card:#ffffff;--green:#1f7a4d;--aprinna-black:#050505;--aprinna-gold:#d8ba78;--aprinna-gold-dark:#a9823d;--aprinna-cream:#fbf7ec;}
+html,body{font-family:Inter,"Noto Sans",Arial,sans-serif;color:#191919;background:#fff}
+body{font-size:14px;font-weight:400;line-height:1.45;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+a{color:#191919}
+.top-strip{background:#f7f7f7;border-bottom-color:#ececec;color:#666;font-size:12px}
+.top-strip strong{color:#191919;font-weight:700}
+.brand{color:#191919;font-family:Inter,"Noto Sans",Arial,sans-serif;font-size:29px;font-weight:900;letter-spacing:-1.6px}
+.brand span{color:#ff4747}
+.searchbar{border-color:#ff4747;background:#fff}
+.searchbar input{color:#191919;background:#fff;font-family:Inter,"Noto Sans",Arial,sans-serif;font-size:14px;font-weight:400}
+.searchbar input::placeholder{color:#8a8a8a;opacity:1}
+.searchbar button{background:#ff4747;color:#fff}
+.header-actions,.header-actions a,.menu-toggle{color:#191919}
+.nav-wrap{border-top-color:#f1f1f1;border-bottom-color:#e9e9e9;background:#fff}
+.nav{font-size:14px;font-weight:600;color:#191919}
+.nav a{color:#191919}
+.nav a:hover,.nav .deal{color:#ff4747}
+.section-head h1{color:#191919;font-size:24px;font-weight:700;letter-spacing:-.25px}
+.section-head p{color:#777;font-size:13px;font-weight:400}
+.feed-card,.index-post-inside-wrap{background:#fff;border-color:#e8e8e8}
+.feed-card-title,.post-title{font-family:Inter,"Noto Sans",Arial,sans-serif;color:#191919;font-size:14px;font-weight:600;line-height:1.45;letter-spacing:0}
+.feed-card-title a,.post-title a{color:#191919}
+.product-meta{color:#999;font-size:11px;font-weight:400}
+.rating{color:#888;font-size:11px;font-weight:400}
+.stars{color:#ff9f00}
+.feed-card-price,.price-main{color:#ff4747;font-size:20px;font-weight:800;letter-spacing:0}
+.old-price{color:#aaa;font-size:12px;font-weight:400}
+.feed-card-actions .view,.button.buy{background:#ff4747;color:#fff;font-weight:700}
+.feed-card-actions .view:hover,.button.buy:hover{background:#e62e2e}
+.feed-card-actions .details,.quick-view{background:#fff;border-color:#ddd;color:#191919}
+.sidebar .widget,.trust-card{background:#fff;border-color:#e8e8e8;color:#191919}
+.sidebar h3,.widget-title h3,.trust-card h3{color:#191919;font-size:15px;font-weight:700}
+.trust-card h3 i{color:#00a650}
+.trust-card p,.list-label a{color:#777}
+.footer{background:#171717;color:#bbb}
+.footer h3{color:#fff;font-size:15px;font-weight:700}
+.footer p,.footer a,.footer span{color:#bbb}
+.footer a:hover{color:#fff}
+.copyright{border-top-color:#2d2d2d;color:#aaa}
+.back-top{background:#222;color:#fff}
+.evx-product-page{font-family:Inter,"Noto Sans",Arial,sans-serif;color:#191919}
+.evx-title{font-family:Inter,"Noto Sans",Arial,sans-serif;color:#191919}
+.evx-kicker,.evx-breadcrumb,.evx-spec-label,.evx-benefit small,.evx-description p{color:#757575}
+.evx-price{color:#191919}
+.evx-btn-buy{background:#ffad08;color:#111827}
+
+/* ===== HOME REFERENCE MATCH ===== */
+body:not(.evx-item-view){background:#f5f6f8;color:#111820;font-family:Inter,"Noto Sans",Arial,sans-serif}
+body:not(.evx-item-view) .site-shell{max-width:1320px;padding-left:20px;padding-right:20px}
+body:not(.evx-item-view) .top-strip{background:#11151a;border:0;color:#eef2f5;font-size:11px}
+body:not(.evx-item-view) .top-strip .site-shell{min-height:28px}
+body:not(.evx-item-view) .top-strip strong{color:#fff}
+body:not(.evx-item-view) .header-main{background:#fff}
+body:not(.evx-item-view) .header-main .site-shell{height:72px;gap:38px}
+body:not(.evx-item-view) .brand{font-size:24px;font-weight:900;letter-spacing:-1.4px;color:#111820}
+body:not(.evx-item-view) .brand span{color:#ff4747}
+body:not(.evx-item-view) .searchbar{height:46px;max-width:none;border:1px solid #d7dce2;border-radius:24px;background:#f8f9fa;overflow:hidden}
+body:not(.evx-item-view) .searchbar input{background:transparent;color:#4b5563;padding-left:18px;font-size:13px}
+body:not(.evx-item-view) .searchbar input::placeholder{color:#7b8490}
+body:not(.evx-item-view) .searchbar button{width:58px;background:#11151a;color:#fff;font-size:15px}
+body:not(.evx-item-view) .header-actions{gap:12px}
+body:not(.evx-item-view) .header-actions a{width:40px;height:40px;border:1px solid #e4e7eb;border-radius:10px;display:grid;place-items:center;font-size:14px;background:#fff}
+body:not(.evx-item-view) .nav-wrap{background:#fff;border-top:1px solid #eef0f2;border-bottom:1px solid #e5e8eb}
+body:not(.evx-item-view) .nav{height:44px;gap:32px;font-size:12px;font-weight:700}
+body:not(.evx-item-view) .nav .deal{color:#ff7a00}
+body:not(.evx-item-view) .shop-layout{max-width:1320px;margin:26px auto 48px;padding:0 20px;grid-template-columns:minmax(0,1fr) 235px;gap:24px}
+body:not(.evx-item-view) .section-head{margin-bottom:16px}
+body:not(.evx-item-view) .section-head h1{font-size:22px;line-height:1.2;margin-bottom:5px;font-weight:800;letter-spacing:-.5px}
+body:not(.evx-item-view) .section-head p{font-size:12px;color:#77808b}
+body:not(.evx-item-view) .grid-posts,
+body:not(.evx-item-view) .feed-grid{gap:0;border-left:1px solid #e1e5e9;border-top:1px solid #e1e5e9;background:#fff}
+body:not(.evx-item-view) .feed-card{border:0;border-right:1px solid #e1e5e9;border-bottom:1px solid #e1e5e9;border-radius:0;box-shadow:none;background:#fff}
+body:not(.evx-item-view) .feed-card-image{background:#fff;aspect-ratio:1/1}
+body:not(.evx-item-view) .feed-card-image img{object-fit:contain}
+body:not(.evx-item-view) .feed-card-discount{left:10px;top:10px;background:#11151a;border-radius:5px;padding:6px 8px;font-size:10px}
+body:not(.evx-item-view) .feed-card-body{padding:12px 14px 14px;gap:8px}
+body:not(.evx-item-view) .feed-card-title{font-size:12px;line-height:1.42;font-weight:700;min-height:51px;color:#111820}
+body:not(.evx-item-view) .feed-card-price-row{gap:8px;margin-top:0}
+body:not(.evx-item-view) .feed-card-price{font-size:17px;color:#111820;font-weight:800}
+body:not(.evx-item-view) .feed-card-old-price{font-size:10px;color:#a5abb3}
+body:not(.evx-item-view) .feed-card-actions{gap:8px;margin-top:5px}
+body:not(.evx-item-view) .feed-card-actions .view{height:36px;background:#11151a;color:#fff;border-radius:6px;font-size:12px;font-weight:800}
+body:not(.evx-item-view) .feed-card-actions .details{height:36px;width:38px;border:1px solid #e2e5e9;border-radius:6px;background:#fff;color:#111820}
+body:not(.evx-item-view) .sidebar .widget,
+body:not(.evx-item-view) .trust-card{border:1px solid #e1e5e9;border-radius:10px;background:#fff;margin-bottom:16px;padding:15px}
+body:not(.evx-item-view) .trust-card{background:#11151a;color:#fff;border-color:#11151a;box-shadow:0 8px 20px rgba(17,21,26,.12)}
+body:not(.evx-item-view) .trust-card h3{color:#fff;font-size:14px}
+body:not(.evx-item-view) .trust-card h3 i{color:#fff}
+body:not(.evx-item-view) .trust-card p{color:#cbd1d8;font-size:11px;line-height:1.55}
+body:not(.evx-item-view) .sidebar h3,
+body:not(.evx-item-view) .widget-title h3{font-size:13px;font-weight:800}
+body:not(.evx-item-view) .list-label a{font-size:11px;color:#59616d;padding:8px 0}
+body:not(.evx-item-view) .footer{background:#11151a}
+@media(max-width:980px){
+ body:not(.evx-item-view) .shop-layout{grid-template-columns:1fr}
+ body:not(.evx-item-view) .sidebar{display:none}
+}
+@media(max-width:680px){
+ body:not(.evx-item-view) .site-shell{padding-left:12px;padding-right:12px}
+ body:not(.evx-item-view) .shop-layout{padding:0 12px}
+ body:not(.evx-item-view) .feed-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ body:not(.evx-item-view) .feed-card-title{font-size:11px;min-height:47px}
+ body:not(.evx-item-view) .feed-card-price{font-size:15px}
+}
+
+/* ===== HOME CARD SIZE + MOTION ===== */
+body:not(.evx-item-view) .shop-layout{max-width:1320px;padding:0 18px;grid-template-columns:minmax(0,1fr) 250px;gap:26px;}
+body:not(.evx-item-view) .main-area{min-width:0}
+body:not(.evx-item-view) .feed-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;border:0;background:transparent;}
+body:not(.evx-item-view) .feed-card{position:relative;overflow:hidden;border:1px solid #e5e8ec;border-radius:11px;background:#fff;min-width:0;box-shadow:0 1px 2px rgba(16,24,40,.02);transform:translateY(0);transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease;}
+body:not(.evx-item-view) .feed-card:hover{transform:translateY(-5px);border-color:#d9dee5;box-shadow:0 12px 28px rgba(16,24,40,.10);}
+body:not(.evx-item-view) .feed-card-image{position:relative;display:block;aspect-ratio:1/1;overflow:hidden;background:#fff;}
+body:not(.evx-item-view) .feed-card-image img{width:100%;height:100%;object-fit:contain;display:block;transform:scale(1);transition:transform .32s ease;}
+body:not(.evx-item-view) .feed-card:hover .feed-card-image img{transform:scale(1.035)}
+body:not(.evx-item-view) .feed-card-discount{left:10px;top:10px;background:#11151a;color:#fff;border-radius:5px;padding:6px 8px;font-size:10px;font-weight:800;z-index:4;}
+body:not(.evx-item-view) .feed-card-heart{position:absolute;top:10px;right:10px;z-index:4;width:31px;height:31px;border:1px solid #e3e7eb;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.96);color:#98a1ab;font-size:13px;transition:background .2s ease,color .2s ease,transform .2s ease;}
+body:not(.evx-item-view) .feed-card-heart:hover{background:#fff;color:#11151a;transform:scale(1.08);}
+body:not(.evx-item-view) .feed-card-body{padding:11px 12px 10px;gap:7px;}
+body:not(.evx-item-view) .feed-card-meta{min-height:16px;display:flex;align-items:center;justify-content:space-between;gap:8px;color:#7d8793;font-size:10px;line-height:1.2;}
+body:not(.evx-item-view) .feed-card-meta .feed-store{color:#303844;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:50%;}
+body:not(.evx-item-view) .feed-card-title{margin:0;color:#121820;font-size:12px;line-height:1.42;font-weight:700;min-height:51px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;}
+body:not(.evx-item-view) .feed-card-rating{display:flex;align-items:center;gap:4px;min-height:15px;color:#8b939d;font-size:10px;}
+body:not(.evx-item-view) .feed-card-rating .stars{color:#ff9f00;letter-spacing:.5px}
+body:not(.evx-item-view) .feed-card-price-row{display:flex;align-items:baseline;gap:8px;min-height:23px;margin:1px 0 0;}
+body:not(.evx-item-view) .feed-card-price{color:#11151a;font-size:18px;line-height:1.15;font-weight:800;}
+body:not(.evx-item-view) .feed-card-old-price{color:#a5abb3;font-size:10px;text-decoration:line-through;}
+body:not(.evx-item-view) .feed-card-actions{display:flex;gap:7px;padding:0 12px 12px;margin-top:auto;}
+body:not(.evx-item-view) .feed-card-actions a{height:37px;transition:transform .18s ease,background .18s ease,border-color .18s ease;}
+body:not(.evx-item-view) .feed-card-actions .view{flex:1;border-radius:6px;background:#11151a;color:#fff;font-size:12px;font-weight:800;}
+body:not(.evx-item-view) .feed-card-actions .view:hover{background:#242a31;transform:translateY(-1px);}
+body:not(.evx-item-view) .feed-card-actions .details{flex:0 0 39px;width:39px;border:1px solid #e0e4e8;border-radius:6px;background:#fff;color:#11151a;}
+body:not(.evx-item-view) .feed-card-actions .details:hover{border-color:#bcc4cd;background:#f7f8f9;transform:translateY(-1px);}
+body:not(.evx-item-view) .sidebar{width:auto}
+body:not(.evx-item-view) .trust-card{padding:17px}
+@media(max-width:1050px){body:not(.evx-item-view) .shop-layout{grid-template-columns:minmax(0,1fr) 225px;gap:20px}}
+@media(max-width:980px){body:not(.evx-item-view) .shop-layout{grid-template-columns:1fr}body:not(.evx-item-view) .feed-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){
+  body:not(.evx-item-view) .feed-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+  body:not(.evx-item-view) .feed-card-body{padding:9px 9px 8px}
+  body:not(.evx-item-view) .feed-card-actions{padding:0 9px 9px}
+  body:not(.evx-item-view) .feed-card-meta .feed-store{display:none}
+  body:not(.evx-item-view) .feed-card-title{font-size:11px;min-height:47px}
+  body:not(.evx-item-view) .feed-card-price{font-size:16px}
+}
+
+/* ===== SEO / PROFESSIONAL TYPOGRAPHY ===== */
+.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+html{-webkit-text-size-adjust:100%}
+body{font-family:Inter,"Noto Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;font-size:14px;line-height:1.55;font-weight:400;letter-spacing:-.01em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility;font-kerning:normal;font-feature-settings:"kern" 1,"liga" 1,"calt" 1;}
+button,input,select,textarea{font:inherit}
+a,button,input{outline-offset:3px}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid #11151a;outline-offset:2px}
+.brand,.nav,.section-head h1,.feed-card-title,.feed-card-price,.sidebar h3,.footer h3{letter-spacing:-.025em}
+.section-head p,.product-meta,.feed-card-meta,.sidebar,.footer{letter-spacing:-.005em}
+
+/* Search */
+.header-main .searchbar{position:relative;height:46px;border:1px solid #d8dde3!important;border-radius:24px!important;background:#f8f9fa!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.85);transition:border-color .18s ease,box-shadow .18s ease,background .18s ease;}
+.header-main .searchbar:focus-within{background:#fff!important;border-color:#aeb6c0!important;box-shadow:0 0 0 4px rgba(17,21,26,.07);}
+.header-main .searchbar input{height:100%;padding:0 18px;background:transparent!important;color:#111827;font-size:13px;font-weight:450;}
+.header-main .searchbar input::placeholder{color:#8a939f;opacity:1}
+.header-main .searchbar button{width:58px;min-width:58px;height:100%;border:0;border-radius:0 23px 23px 0;background:#11151a!important;color:#fff!important;cursor:pointer;transition:background .18s ease,transform .18s ease;}
+.header-main .searchbar button:hover{background:#272d34!important}
+.header-main .searchbar button:active{transform:scale(.97)}
+.mobile-search .searchbar{border:1px solid #d8dde3!important;border-radius:10px!important;background:#f8f9fa!important;}
+.mobile-search .searchbar button{background:#11151a!important;color:#fff!important}
+
+/* Sidebar widgets */
+.sidebar-section .widget{border:1px solid #e3e7eb;border-radius:10px;background:#fff;margin:0 0 16px;padding:0;overflow:hidden;}
+.sidebar-section .widget>h2,.sidebar-section .widget>h3,.sidebar-section .widget .title{margin:0;padding:14px 15px;border-bottom:1px solid #eceff2;color:#151a20;font-size:13px;line-height:1.25;font-weight:800;}
+.sidebar-section .widget-content{padding:12px 15px}
+.html-widget-content{color:#616b77;font-size:12px;line-height:1.65;}
+.html-widget-content>*:first-child{margin-top:0}
+.html-widget-content>*:last-child{margin-bottom:0}
+.html-widget-content img{max-width:100%;height:auto;border-radius:7px}
+.sidebar-section .list-label.widget-content{padding:5px 15px 9px}
+.sidebar-section .list-label li{border-color:#eef1f3}
+.sidebar-section .list-label a{padding:8px 0;font-size:11.5px;transition:color .15s ease,padding-left .15s ease}
+.sidebar-section .list-label a:hover{color:#11151a;padding-left:3px}
+
+/* Feed Pagination */
+.evx-pagination{display:flex;align-items:center;justify-content:center;gap:7px;flex-wrap:wrap;margin:28px 0 4px;padding:0;}
+.evx-pagination a,.evx-pagination span{min-width:38px;height:38px;padding:0 11px;border:1px solid #dfe4e9;border-radius:8px;background:#fff;color:#303844;display:inline-flex;align-items:center;justify-content:center;font-size:12px;line-height:1;font-weight:700;text-decoration:none;transition:background .18s ease,border-color .18s ease,color .18s ease,transform .18s ease;}
+.evx-pagination a:hover{background:#f6f7f8;border-color:#bfc7d0;color:#11151a;transform:translateY(-1px);}
+.evx-pagination .current{background:#11151a;border-color:#11151a;color:#fff;cursor:default;}
+.evx-pagination .disabled{color:#b4bbc3;background:#f8f9fa;cursor:not-allowed;}
+.evx-pagination .dots{border-color:transparent;background:transparent;min-width:28px;padding:0 4px;}
+.evx-pagination .prev,.evx-pagination .next{padding:0 14px;min-width:auto;}
+.evx-page-info{margin:11px 0 0;text-align:center;color:#8a939f;font-size:11px;}
+@media(max-width:560px){
+  .evx-pagination{gap:5px;margin-top:20px}
+  .evx-pagination a,.evx-pagination span{min-width:34px;height:34px;padding:0 9px;font-size:11px;border-radius:7px;}
+  .evx-pagination .prev,.evx-pagination .next{padding:0 10px}
+  .evx-pagination .page-wide{display:none}
+}
+
+/* ===== MOBILE SINGLE PRODUCT RESPONSIVE FIX ===== */
+@media (max-width:900px){
+  body.evx-item-view{overflow-x:hidden;}
+  body.evx-item-view .shop-layout{display:block!important;width:100%!important;max-width:100%!important;margin:16px auto 28px!important;padding:0 12px!important;}
+  body.evx-item-view .main-area,body.evx-item-view #main-content,body.evx-item-view #evx-feed-app{width:100%!important;max-width:100%!important;min-width:0!important;margin:0!important;padding:0!important;overflow:visible!important;}
+  body.evx-item-view .evx-product-page{width:100%!important;max-width:100%!important;margin:0!important;transform:none!important;padding:18px!important;border-radius:14px!important;overflow:hidden;}
+  body.evx-item-view .evx-main{display:grid!important;grid-template-columns:1fr!important;gap:22px!important;width:100%!important;min-width:0!important;}
+  body.evx-item-view .evx-gallery,body.evx-item-view .evx-summary{width:100%!important;min-width:0!important;}
+  body.evx-item-view .evx-image-box{width:100%!important;max-width:100%!important;aspect-ratio:1/1!important;height:auto!important;padding:16px!important;}
+  body.evx-item-view .evx-main-link,body.evx-item-view .evx-main-image,body.evx-item-view .evx-image-box img{width:100%!important;max-width:100%!important;height:100%!important;object-fit:contain!important;}
+  body.evx-item-view .evx-thumbs{width:100%!important;max-width:100%!important;overflow-x:auto!important;overflow-y:hidden!important;-webkit-overflow-scrolling:touch;padding-bottom:6px!important;}
+  body.evx-item-view .evx-title{font-size:23px!important;line-height:1.32!important;overflow-wrap:anywhere;word-break:normal;}
+  body.evx-item-view .evx-breadcrumb{width:100%;max-width:100%;flex-wrap:nowrap!important;overflow-x:auto!important;overflow-y:hidden!important;white-space:nowrap;scrollbar-width:none;padding-bottom:3px;}
+  body.evx-item-view .evx-breadcrumb::-webkit-scrollbar{display:none}
+  body.evx-item-view .evx-breadcrumb .current{max-width:none!important;overflow:visible!important;text-overflow:clip!important;}
+  body.evx-item-view .evx-price-box,body.evx-item-view .evx-buy-panel,body.evx-item-view .evx-specs{width:100%!important;max-width:100%!important;}
+  body.evx-item-view .evx-price-line{align-items:baseline!important;}
+  body.evx-item-view .evx-buy-actions{grid-template-columns:1fr 1.15fr!important;}
+  body.evx-item-view .evx-benefits{grid-template-columns:repeat(3,minmax(0,1fr))!important;}
+  body.evx-item-view .evx-benefit{min-width:0!important;}
+  body.evx-item-view .evx-spec-row{grid-template-columns:120px minmax(0,1fr)!important;}
+  body.evx-item-view .evx-spec-row > *{min-width:0;overflow-wrap:anywhere;}
+  body.evx-item-view .evx-about,body.evx-item-view .evx-description{width:100%!important;max-width:100%!important;overflow-wrap:anywhere;}
+  body.evx-item-view .evx-description img,body.evx-item-view .native-post-body img,body.evx-item-view .feed-item-body img{max-width:100%!important;height:auto!important;}
+}
+@media (max-width:600px){
+  body.evx-item-view .top-strip{display:none!important;}
+  body.evx-item-view .header-main .site-shell{height:58px!important;padding:0 12px!important;gap:10px!important;}
+  body.evx-item-view .brand{font-size:21px!important;max-width:calc(100% - 54px);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  body.evx-item-view .header-main .searchbar{display:none!important;}
+  body.evx-item-view .mobile-search{display:block!important;padding:8px 0!important;background:#fff;}
+  body.evx-item-view .nav-wrap{display:none;}
+  body.evx-item-view .nav-wrap.open{display:block!important;}
+  body.evx-item-view .shop-layout{margin:10px auto 22px!important;padding:0 8px!important;}
+  body.evx-item-view .evx-product-page{padding:12px!important;border-radius:12px!important;box-shadow:0 4px 14px rgba(16,24,40,.045)!important;}
+  body.evx-item-view .evx-breadcrumb{margin-bottom:16px!important;font-size:11px!important;}
+  body.evx-item-view .evx-breadcrumb .crumb-sep{margin-left:7px!important;margin-right:8px!important;}
+  body.evx-item-view .evx-main{gap:18px!important;}
+  body.evx-item-view .evx-image-box{padding:8px!important;border-radius:10px!important;}
+  body.evx-item-view .evx-thumbs{gap:7px!important;margin-top:8px!important;}
+  body.evx-item-view .evx-thumb{width:58px!important;height:58px!important;flex-basis:58px!important;border-radius:7px!important;}
+  body.evx-item-view .evx-kicker{margin:0 0 8px!important;font-size:11px!important;}
+  body.evx-item-view .evx-title{font-size:20px!important;line-height:1.3!important;letter-spacing:-.25px!important;margin-bottom:15px!important;}
+  body.evx-item-view .evx-rating{gap:6px!important;margin:-4px 0 15px!important;font-size:12px!important;}
+  body.evx-item-view .evx-stars{font-size:16px!important;letter-spacing:1px!important;}
+  body.evx-item-view .evx-rating-value{font-size:13px!important;}
+  body.evx-item-view .evx-rating-meta,body.evx-item-view .evx-rating-divider{font-size:12px!important;}
+  body.evx-item-view .evx-price-box{padding:18px 14px 15px!important;margin-bottom:14px!important;border-radius:10px!important;}
+  body.evx-item-view .evx-price{font-size:27px!important;}
+  body.evx-item-view .evx-old-price{font-size:12px!important;}
+  body.evx-item-view .evx-stock{margin-top:14px!important;font-size:11px!important;}
+  body.evx-item-view .evx-buy-panel{padding:13px!important;margin-bottom:13px!important;border-radius:10px!important;}
+  body.evx-item-view .evx-buy-label{font-size:11px!important;line-height:1.45!important;}
+  body.evx-item-view .evx-buy-actions{grid-template-columns:1fr!important;gap:8px!important;}
+  body.evx-item-view .evx-btn{width:100%!important;min-width:0!important;height:46px!important;font-size:13px!important;}
+  body.evx-item-view .evx-benefits{grid-template-columns:1fr!important;gap:8px!important;margin-bottom:13px!important;}
+  body.evx-item-view .evx-benefit{min-height:auto!important;padding:12px!important;display:grid!important;grid-template-columns:34px minmax(0,1fr)!important;grid-template-rows:auto auto!important;column-gap:9px!important;text-align:left!important;justify-items:start!important;}
+  body.evx-item-view .evx-benefit .ico{grid-row:1 / span 2;height:auto!important;margin:0!important;align-self:center;}
+  body.evx-item-view .evx-benefit strong{margin:0 0 2px!important;font-size:11.5px!important;}
+  body.evx-item-view .evx-benefit small{font-size:10.5px!important;}
+  body.evx-item-view .evx-spec-row{grid-template-columns:92px minmax(0,1fr)!important;padding:11px 12px!important;gap:8px!important;font-size:11.5px!important;}
+  body.evx-item-view .evx-about{margin-top:20px!important;padding-top:18px!important;}
+  body.evx-item-view .evx-about h2{font-size:17px!important;margin-bottom:12px!important;}
+  body.evx-item-view .evx-description p{font-size:13px!important;line-height:1.65!important;}
+}
+@media (max-width:380px){
+  body.evx-item-view .shop-layout{padding:0 5px!important;}
+  body.evx-item-view .evx-product-page{padding:10px!important;}
+  body.evx-item-view .evx-title{font-size:18px!important;}
+  body.evx-item-view .evx-price{font-size:24px!important;}
+  body.evx-item-view .evx-spec-row{grid-template-columns:78px minmax(0,1fr)!important;}
+}
+
+/* ===== APRINNA BLACK + CHAMPAGNE GOLD REDESIGN ===== */
+body:not(.evx-item-view){background:#f8f6f1!important;color:#15130f!important}
+body:not(.evx-item-view) .top-strip{background:#050505!important;color:#d8ba78!important;border-color:#050505!important}
+body:not(.evx-item-view) .top-strip strong{color:#f4dfaa!important}
+body:not(.evx-item-view) .header-main{background:#fff!important;border-bottom-color:#eee7d9!important}
+body:not(.evx-item-view) .brand{color:#050505!important}
+body:not(.evx-item-view) .brand span{color:#c9a45b!important}
+body:not(.evx-item-view) .header-main .searchbar{border-color:#ddd4c3!important;background:#fbfaf7!important}
+body:not(.evx-item-view) .header-main .searchbar:focus-within{border-color:#c9a45b!important;box-shadow:0 0 0 4px rgba(201,164,91,.12)!important}
+body:not(.evx-item-view) .header-main .searchbar button{background:#050505!important;color:#e4c987!important}
+body:not(.evx-item-view) .header-actions a{border-color:#e6dfd2!important;color:#17140f!important}
+body:not(.evx-item-view) .nav-wrap{border-color:#eee7da!important}
+body:not(.evx-item-view) .nav a:hover,body:not(.evx-item-view) .nav .deal{color:#a9823d!important}
+body:not(.evx-item-view) .feed-card{border-color:#e7dfd0!important;box-shadow:0 2px 8px rgba(37,29,15,.035)!important}
+body:not(.evx-item-view) .feed-card:hover{border-color:#d8ba78!important;box-shadow:0 12px 28px rgba(58,43,17,.10)!important}
+body:not(.evx-item-view) .feed-card-discount{background:#050505!important;color:#e6ca89!important}
+body:not(.evx-item-view) .feed-card-heart{border-color:#e8e0d2!important;color:#a9823d!important}
+body:not(.evx-item-view) .feed-card-meta{color:#8a806e!important}
+body:not(.evx-item-view) .aprinna-card-store{color:#9b762e!important;font-weight:800!important}
+body:not(.evx-item-view) .aprinna-card-store .fa{color:#c9a45b!important}
+body:not(.evx-item-view) .feed-store{color:#5e574b!important}
+body:not(.evx-item-view) .feed-card-title{color:#17140f!important}
+body:not(.evx-item-view) .feed-card-rating .stars{color:#c99c3d!important}
+body:not(.evx-item-view) .feed-card-price{color:#17140f!important}
+body:not(.evx-item-view) .feed-card-old-price{color:#9c9487!important}
+body:not(.evx-item-view) .feed-card-actions{gap:8px!important}
+body:not(.evx-item-view) .feed-card-actions .view{background:#050505!important;color:#efd99f!important;border:1px solid #050505!important}
+body:not(.evx-item-view) .feed-card-actions .view:hover{background:#1b1812!important;color:#ffe8ac!important}
+body:not(.evx-item-view) .feed-card-actions .details.aprinna-buy-now{flex:0 0 auto!important;width:auto!important;min-width:98px!important;padding:0 12px!important;gap:6px!important;background:linear-gradient(135deg,#efd99f,#c9a45b)!important;border:1px solid #b48b3d!important;color:#15120d!important;font-size:11px!important;font-weight:900!important}
+body:not(.evx-item-view) .feed-card-actions .details.aprinna-buy-now:hover{background:linear-gradient(135deg,#f6e4b3,#d4b263)!important;border-color:#9f772e!important}
+body:not(.evx-item-view) .feed-card-actions .details.aprinna-buy-now span{display:inline!important}
+body:not(.evx-item-view) .trust-card{background:#050505!important;border-color:#050505!important}
+body:not(.evx-item-view) .trust-card h3{color:#efd99f!important}
+body:not(.evx-item-view) .trust-card h3 i{color:#d8ba78!important}
+body:not(.evx-item-view) .footer{background:#050505!important}
+body:not(.evx-item-view) .evx-pagination .current{background:#050505!important;border-color:#050505!important;color:#efd99f!important}
+@media(max-width:560px){
+ body:not(.evx-item-view) .feed-card-actions .details.aprinna-buy-now{min-width:82px!important;padding:0 9px!important;font-size:10px!important}
+ body:not(.evx-item-view) .feed-card-actions .view{font-size:11px!important}
+}
+
+
+/* ===== APRINNA BRIGHT CHAMPAGNE HOME V2 ===== */
+body:not(.evx-item-view){background:#fffdf8!important}
+body:not(.evx-item-view) .header-main{background:#fff!important}
+body:not(.evx-item-view) .nav-wrap{background:#fffefb!important}
+body:not(.evx-item-view) .feed-card{background:#fff!important;border-color:#eadfca!important}
+body:not(.evx-item-view) .feed-card-image{background:#fff!important}
+body:not(.evx-item-view) .feed-card-body{background:#fff!important}
+body:not(.evx-item-view) .feed-card-meta{border-bottom:1px solid #f4ecdc;padding-bottom:7px!important}
+body:not(.evx-item-view) .aprinna-card-store{color:#9b7428!important}
+body:not(.evx-item-view) .feed-card-title{color:#211c14!important}
+body:not(.evx-item-view) .feed-card-rating{gap:5px!important;color:#817662!important;font-size:10px!important}
+body:not(.evx-item-view) .feed-card-rating .stars{color:#d2a443!important;letter-spacing:.35px!important}
+body:not(.evx-item-view) .feed-card-rating strong{color:#55452b!important;font-size:10px!important}
+body:not(.evx-item-view) .feed-card-reviews{display:inline!important;color:#6f6658!important;font-weight:700!important;white-space:nowrap!important}
+body:not(.evx-item-view) .feed-card-price{color:#9a7022!important;font-size:19px!important}
+body:not(.evx-item-view) .feed-card-actions .view{background:#fffaf0!important;color:#7c5a1d!important;border:1px solid #d9bd80!important}
+body:not(.evx-item-view) .feed-card-actions .view:hover{background:#f8edcf!important;color:#5e4214!important}
+body:not(.evx-item-view) .feed-card-actions .details.aprinna-buy-now{background:linear-gradient(135deg,#f8e9bd,#dfbd6d)!important;border-color:#cfaa58!important;color:#33260f!important}
+body:not(.evx-item-view) .feed-card-actions .details.aprinna-buy-now:hover{background:linear-gradient(135deg,#fff1c9,#e8c778)!important}
+body:not(.evx-item-view) .sidebar .widget{border-color:#eadfca!important}
+body:not(.evx-item-view) .trust-card{background:#18140e!important;border-color:#18140e!important}
+
+
+/* ===== APRINNA HOME THEME LOCK =====
+   Final HOME palette: bright champagne. Keep HOME isolated from post CSS.
+*/
+body:not(.evx-item-view){
+  --home-bg:#fffdf8;
+  --home-card:#ffffff;
+  --home-ink:#211c14;
+  --home-dark:#18140e;
+  --home-gold:#d2a443;
+  --home-gold-deep:#9a7022;
+  --home-gold-soft:#f8e9bd;
+  --home-line:#eadfca;
+  --home-muted:#817662;
+  background:var(--home-bg)!important;
+  color:var(--home-ink)!important;
+}
+body:not(.evx-item-view) .header-main{background:#fff!important}
+body:not(.evx-item-view) .nav-wrap{background:#fffefb!important;border-color:var(--home-line)!important}
+body:not(.evx-item-view) .brand{color:var(--home-dark)!important}
+body:not(.evx-item-view) .brand span{color:var(--home-gold-deep)!important}
+body:not(.evx-item-view) .header-main .searchbar{background:#fff!important;border-color:#ddd4c3!important}
+body:not(.evx-item-view) .header-main .searchbar button{background:var(--home-dark)!important;color:#f2d994!important}
+body:not(.evx-item-view) .feed-card,
+body:not(.evx-item-view) .feed-card-image,
+body:not(.evx-item-view) .feed-card-body,
+body:not(.evx-item-view) .sidebar .widget{background:#fff!important}
+body:not(.evx-item-view) .feed-card{border-color:var(--home-line)!important}
+body:not(.evx-item-view) .feed-card:hover{border-color:#d8ba78!important}
+body:not(.evx-item-view) .feed-card-meta{color:var(--home-muted)!important;border-bottom:1px solid #f4ecdc!important}
+body:not(.evx-item-view) .aprinna-card-store{color:#9b7428!important}
+body:not(.evx-item-view) .feed-card-title{color:var(--home-ink)!important}
+body:not(.evx-item-view) .feed-card-rating{color:var(--home-muted)!important}
+body:not(.evx-item-view) .feed-card-rating .stars{color:var(--home-gold)!important}
+body:not(.evx-item-view) .feed-card-rating strong{color:#55452b!important}
+body:not(.evx-item-view) .feed-card-reviews{color:#6f6658!important}
+body:not(.evx-item-view) .feed-card-price{color:var(--home-gold-deep)!important}
+body:not(.evx-item-view) .feed-card-actions .view{
+  background:#fffaf0!important;color:#7c5a1d!important;border:1px solid #d9bd80!important
+}
+body:not(.evx-item-view) .feed-card-actions .view:hover{background:#f8edcf!important;color:#5e4214!important}
+body:not(.evx-item-view) .feed-card-actions .details.aprinna-buy-now{
+  background:linear-gradient(135deg,#f8e9bd,#dfbd6d)!important;
+  border-color:#cfaa58!important;color:#33260f!important
+}
+body:not(.evx-item-view) .feed-card-actions .details.aprinna-buy-now:hover{
+  background:linear-gradient(135deg,#fff1c9,#e8c778)!important
+}
+body:not(.evx-item-view) .trust-card{background:var(--home-dark)!important;border-color:var(--home-dark)!important}
+body:not(.evx-item-view) .trust-card h3{color:#efd99f!important}
+body:not(.evx-item-view) .trust-card p{color:#d8d0c2!important}
+body:not(.evx-item-view) .footer{background:var(--home-dark)!important}
+body:not(.evx-item-view) .evx-pagination .current{
+  background:var(--home-dark)!important;border-color:var(--home-dark)!important;color:#efd99f!important
+}
+/* ===== END HOME THEME LOCK ===== */
+
+/* ===== APRINNA PRODUCT = HOME COLOR LOCK ===== */
+body.evx-item-view{
+  --home-bg:#fffdf8;
+  --home-card:#ffffff;
+  --home-ink:#211c14;
+  --home-dark:#18140e;
+  --home-gold:#d2a443;
+  --home-gold-deep:#9a7022;
+  --home-gold-soft:#f8e9bd;
+  --home-line:#eadfca;
+  --home-muted:#817662;
+  background:var(--home-bg)!important;
+  color:var(--home-ink)!important;
+}
+body.evx-item-view .top-strip{background:var(--home-dark)!important;color:#d8ba78!important;border-color:var(--home-dark)!important}
+body.evx-item-view .top-strip strong{color:#f4dfaa!important}
+body.evx-item-view .header-main{background:#fff!important;border-bottom-color:var(--home-line)!important}
+body.evx-item-view .brand{color:var(--home-dark)!important}
+body.evx-item-view .brand span{color:var(--home-gold-deep)!important}
+body.evx-item-view .header-main .searchbar{background:#fff!important;border-color:#ddd4c3!important}
+body.evx-item-view .header-main .searchbar:focus-within{border-color:var(--home-gold)!important;box-shadow:0 0 0 4px rgba(210,164,67,.12)!important}
+body.evx-item-view .header-main .searchbar button{background:var(--home-dark)!important;color:#f2d994!important}
+body.evx-item-view .header-actions a{background:#fff!important;border-color:#e6dfd2!important;color:var(--home-dark)!important}
+body.evx-item-view .nav-wrap{background:#fffefb!important;border-color:var(--home-line)!important}
+body.evx-item-view .nav a{color:var(--home-ink)!important}
+body.evx-item-view .nav a:hover,body.evx-item-view .nav .deal{color:var(--home-gold-deep)!important}
+body.evx-item-view .footer{background:var(--home-dark)!important;color:#d8d0c2!important}
+body.evx-item-view .footer h3{color:#efd99f!important}
+body.evx-item-view .footer a,body.evx-item-view .footer p,body.evx-item-view .footer span{color:#d8d0c2!important}
+body.evx-item-view .main-area{background:transparent!important;border:0!important;box-shadow:none!important}
+body.evx-item-view .evx-product-page{
+  background:#fff!important;color:var(--home-ink)!important;border-color:var(--home-line)!important;
+  box-shadow:0 12px 32px rgba(58,43,17,.07)!important
+}
+body.evx-item-view .evx-breadcrumb{background:#fffaf0!important;border-color:var(--home-line)!important;color:var(--home-muted)!important}
+body.evx-item-view .evx-breadcrumb .crumb{color:#7c5a1d!important}
+body.evx-item-view .evx-breadcrumb a.crumb:hover{color:var(--home-gold-deep)!important}
+body.evx-item-view .evx-breadcrumb .current{color:#55452b!important}
+body.evx-item-view .evx-title{color:var(--home-ink)!important}
+body.evx-item-view .evx-image-box,body.evx-item-view .evx-thumb,
+body.evx-item-view .evx-buy-panel,body.evx-item-view .evx-specs,
+body.evx-item-view .evx-benefit{background:#fff!important;border-color:var(--home-line)!important}
+body.evx-item-view .evx-thumb.active{border-color:var(--home-gold)!important}
+body.evx-item-view .evx-stars,body.evx-item-view .evx-spec-stars,
+body.evx-item-view .evx-benefit .ico,body.evx-item-view .evx-benefit .ico .fa{color:var(--home-gold)!important}
+body.evx-item-view .evx-price-box{background:#fffaf0!important;border:1px solid var(--home-line)!important}
+body.evx-item-view .evx-price{color:var(--home-gold-deep)!important}
+body.evx-item-view .evx-btn-details{background:#fffaf0!important;border-color:#d9bd80!important;color:#7c5a1d!important}
+body.evx-item-view .evx-btn-buy{
+  background:linear-gradient(135deg,#f8e9bd,#dfbd6d)!important;
+  border:1px solid #cfaa58!important;color:#33260f!important
+}
+body.evx-item-view .evx-btn-buy:hover{background:linear-gradient(135deg,#fff1c9,#e8c778)!important}
+body.evx-item-view .aprinna-quick-link{background:#fffaf0!important;border-color:var(--home-line)!important;color:#7c5a1d!important}
+body.evx-item-view .aprinna-variant{background:#fff!important;border-color:var(--home-line)!important}
+body.evx-item-view .aprinna-variant.is-selected{background:#fffaf0!important;border-color:var(--home-gold)!important}
+body.evx-item-view .aprinna-brand-mark{background:var(--home-dark)!important;color:#efd99f!important}
+body.evx-item-view .evx-spec-label,body.evx-item-view .evx-benefit small,
+body.evx-item-view .evx-description p,body.evx-item-view .aprinna-brand-sub{color:var(--home-muted)!important}
+/* ===== END PRODUCT = HOME COLOR LOCK ===== */
+
+
+
+/* ===== SIDEBAR CATEGORY ALIGNMENT FIX ===== */
+body:not(.evx-item-view) .sidebar-section .widget.Label .widget-content,
+body:not(.evx-item-view) .sidebar-section .list-label.widget-content{
+  padding:7px 16px 10px!important;
+  margin:0!important;
+  overflow:hidden!important;
+}
+body:not(.evx-item-view) .sidebar-section .widget.Label ul,
+body:not(.evx-item-view) .sidebar-section .list-label ul{
+  width:100%!important;
+  margin:0!important;
+  padding:0!important;
+  list-style:none!important;
+}
+body:not(.evx-item-view) .sidebar-section .widget.Label li,
+body:not(.evx-item-view) .sidebar-section .list-label li{
+  width:100%!important;
+  margin:0!important;
+  padding:0!important;
+  border-top:1px solid #f0eadf!important;
+}
+body:not(.evx-item-view) .sidebar-section .widget.Label li:first-child,
+body:not(.evx-item-view) .sidebar-section .list-label li:first-child{border-top:0!important}
+body:not(.evx-item-view) .sidebar-section .widget.Label a,
+body:not(.evx-item-view) .sidebar-section .list-label a{
+  display:flex!important;
+  align-items:center!important;
+  justify-content:space-between!important;
+  width:100%!important;
+  min-width:0!important;
+  padding:9px 2px!important;
+  margin:0!important;
+  color:#655b4b!important;
+  font-size:11.5px!important;
+  line-height:1.35!important;
+  overflow-wrap:anywhere!important;
+}
+body:not(.evx-item-view) .sidebar-section .widget.Label a:hover,
+body:not(.evx-item-view) .sidebar-section .list-label a:hover{
+  color:#9a7022!important;
+  padding-left:5px!important;
+}
+body:not(.evx-item-view) .sidebar-section .widget.Label .label-count{
+  flex:0 0 auto!important;
+  margin-left:8px!important;
+  color:#9b907e!important;
+}
+/* ===== END SIDEBAR CATEGORY ALIGNMENT FIX ===== */
+
+
+/* ===== HOME PAGINATION FINAL ===== */
+body:not(.evx-item-view) .evx-pagination{
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:7px!important;
+  margin:28px 0 8px!important;
+  padding:0!important;
+}
+body:not(.evx-item-view) .evx-pagination a,
+body:not(.evx-item-view) .evx-pagination span{
+  min-width:38px!important;height:38px!important;padding:0 11px!important;
+  border:1px solid #dfcfad!important;border-radius:8px!important;
+  background:#fff!important;color:#6d5425!important;font-weight:800!important;
+}
+body:not(.evx-item-view) .evx-pagination a:hover{
+  background:#fff6df!important;border-color:#d2a443!important;color:#9a7022!important;
+}
+body:not(.evx-item-view) .evx-pagination .current{
+  background:#18140e!important;border-color:#18140e!important;color:#efd99f!important;
+}
+body:not(.evx-item-view) .evx-pagination .disabled{
+  background:#faf7f0!important;color:#b7aa92!important;border-color:#ece3d2!important;
+}
+body:not(.evx-item-view) .evx-pagination .dots{
+  border-color:transparent!important;background:transparent!important;color:#9b907e!important;
+}
+body:not(.evx-item-view) .evx-page-info{
+  text-align:center!important;color:#817662!important;font-size:11px!important;margin:0 0 8px!important;
+}
+@media(max-width:560px){
+  body:not(.evx-item-view) .evx-pagination{gap:5px!important;margin-top:20px!important}
+  body:not(.evx-item-view) .evx-pagination a,
+  body:not(.evx-item-view) .evx-pagination span{min-width:34px!important;height:34px!important;padding:0 8px!important;font-size:11px!important}
+  body:not(.evx-item-view) .evx-pagination .prev,
+  body:not(.evx-item-view) .evx-pagination .next{font-size:0!important;min-width:34px!important}
+  body:not(.evx-item-view) .evx-pagination .prev .fa,
+  body:not(.evx-item-view) .evx-pagination .next .fa{font-size:13px!important}
+}
+/* ===== END HOME PAGINATION FINAL ===== */
+
+]]></b:skin>
+</head>
+<body>
+<div class='top-strip'><div class='site-shell'><div><strong>Pilihan nyaman untuk setiap hari</strong> <data:blog.description/></div><div><i class='fa fa-shield'/> Belanja aman dari rumah. &#160; &#183; &#160; <i class='fa fa-globe'/> Pengiriman keseluruh indonesia.</div></div></div>
+<header class='header-main'><div class='site-shell'><a aria-label='Home' class='brand' expr:href='data:blog.homepageUrl'><data:blog.title/><span>.</span></a><form action='/search' aria-label='Search products' class='searchbar evx-search-form' method='get' role='search'><label class='sr-only' for='site-search'>Search products</label><input aria-label='Search products' autocomplete='off' id='site-search' maxlength='120' name='q' placeholder='Search products, categories, or keywords...' type='search'/><button aria-label='Search' type='submit'><i aria-hidden='true' class='fa fa-search'/></button></form><div class='header-actions'><a aria-label='Home' expr:href='data:blog.homepageUrl'><i aria-hidden='true' class='fa fa-home'/></a><button aria-label='Menu' class='menu-toggle' type='button'><i aria-hidden='true' class='fa fa-bars'/></button></div></div></header>
+<div class='mobile-search'><div class='site-shell'><form action='/search' aria-label='Search products' class='searchbar evx-search-form' method='get' role='search'><label class='sr-only' for='mobile-site-search'>Search products</label><input aria-label='Search products' autocomplete='off' id='mobile-site-search' maxlength='120' name='q' placeholder='Search products...' type='search'/><button aria-label='Search' type='submit'><i aria-hidden='true' class='fa fa-search'/></button></form></div></div>
+<nav aria-label='Main navigation' class='nav-wrap'><div class='site-shell nav'><a expr:href='data:blog.homepageUrl'>Home</a><a expr:href='data:blog.homepageUrl'>Latest Products</a><a class='deal' expr:href='data:blog.homepageUrl + &quot;search/label/Deals&quot;'>🔥 Deals &amp; Promotions</a><a expr:href='data:blog.homepageUrl + &quot;search/label/Best Seller&quot;'>Best Seller</a></div></nav>
+
+<div class='shop-layout'>
+  <main class='main-area'>
+    <b:section class='main-section' id='main-content' showaddelement='yes'>
+      <b:widget id='Blog1' locked='true' title='Postingan Blog' type='Blog' version='2' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='showDateHeader'>false</b:widget-setting>
+          <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
+          <b:widget-setting name='showShareButtons'>false</b:widget-setting>
+          <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+          <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
+          <b:widget-setting name='showAuthor'>true</b:widget-setting>
+          <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
+          <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+          <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+          <b:widget-setting name='timestampLabel'/>
+          <b:widget-setting name='reactionsLabel'/>
+          <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+          <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+          <b:widget-setting name='showLabels'>true</b:widget-setting>
+          <b:widget-setting name='showLocation'>true</b:widget-setting>
+          <b:widget-setting name='postLabelsLabel'/>
+          <b:widget-setting name='showTimestamp'>true</b:widget-setting>
+          <b:widget-setting name='postsPerAd'>1</b:widget-setting>
+          <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+          <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+          <b:widget-setting name='showInlineAds'>false</b:widget-setting>
+          <b:widget-setting name='showReactions'>false</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+          <b:if cond='data:view.isMultipleItems'>
+            <div expr:data-home='data:blog.homepageUrl' expr:data-page-type='data:blog.pageType' id='evx-feed-app'>
+              <div class='evx-loading'>Loading products...</div>
+            </div>
+            
+            <noscript>
+              <div class='feed-grid'>
+                <b:loop values='data:posts' var='post'>
+                  <article class='feed-card'>
+                    <a class='feed-card-image' expr:href='data:post.url'>
+                      <img expr:alt='data:post.title' expr:src='data:post.featuredImage ? resizeImage(data:post.featuredImage, 350, &quot;1:1&quot;) : &quot;&quot;' loading='lazy'/>
+                    </a>
+                    <div class='feed-card-body'>
+                       <h2 class='feed-card-title'><a expr:href='data:post.url'><data:post.title/></a></h2>
+                    </div>
+                  </article>
+                </b:loop>
+              </div>
+            </noscript>
+          <b:else/>
+            <script>document.body.classList.add(&#39;evx-item-view&#39;);</script>
+            <b:loop values='data:posts' var='post'>
+              <div class='native-post-wrap'>
+                <h1 class='native-post-title' style='display:none;'><data:post.title/></h1>
+                <div class='native-post-body'>
+                  <data:post.body/>
+                </div>
+              </div>
+            </b:loop>
+          </b:if>
+        </b:includable>
+        <b:includable id='aboutPostAuthor'>
+  <div class='author-name'>
+    <a class='g-profile' expr:href='data:post.author.profileUrl' rel='author' title='author profile'>
+      <span>
+        <data:post.author.name/>
+      </span>
+    </a>
+  </div>
+  <div>
+    <span class='author-desc'>
+      <data:post.author.aboutMe/>
+    </span>
+  </div>
+</b:includable>
+        <b:includable id='addComments'>
+  <a expr:href='data:post.commentsUrl' expr:onclick='data:post.commentsUrlOnclick'>
+    <b:message name='messages.postAComment'/>
+  </a>
+</b:includable>
+        <b:includable id='commentAuthorAvatar'>
+  <div class='avatar-image-container'>
+    <img class='author-avatar' expr:src='data:comment.authorAvatarSrc' height='35' width='35'/>
+  </div>
+</b:includable>
+        <b:includable id='commentDeleteIcon' var='comment'>
+  <span expr:class='&quot;item-control &quot; + data:comment.adminClass'>
+    <b:if cond='data:showCmtPopup'>
+      <div class='goog-toggle-button'>
+        <div class='goog-inline-block comment-action-icon'/>
+      </div>
+    <b:else/>
+      <a class='comment-delete' expr:href='data:comment.deleteUrl' expr:title='data:messages.deleteComment'>
+        <img src='https://resources.blogblog.com/img/icon_delete13.gif'/>
+      </a>
+    </b:if>
+  </span>
+</b:includable>
+        <b:includable id='commentForm' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <h4 id='comment-post-message'><data:messages.postAComment/></h4>
+    <b:if cond='data:this.messages.blogComment != &quot;&quot;'>
+      <p><data:this.messages.blogComment/></p>
+    </b:if>
+    <b:include data='post' name='commentFormIframeSrc'/>
+    <iframe allowtransparency='allowtransparency' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight ?: &quot;90px&quot;' frameborder='0' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+    </script>
+  </div>
+</b:includable>
+        <b:includable id='commentFormIframeSrc' var='post'>
+  <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+</b:includable>
+        <b:includable id='commentItem' var='comment'>
+  <div class='comment' expr:id='&quot;c&quot; + data:comment.id'>
+    <b:include cond='data:blog.enabledCommentProfileImages' name='commentAuthorAvatar'/>
+
+    <div class='comment-block'>
+      <div class='comment-author'>
+        <b:if cond='data:comment.authorUrl'>
+          <b:message name='messages.authorSaidWithLink'>
+            <b:param expr:value='data:comment.author' name='authorName'/>
+            <b:param expr:value='data:comment.authorUrl' name='authorUrl'/>
+          </b:message>
+        <b:else/>
+          <b:message name='messages.authorSaid'>
+            <b:param expr:value='data:comment.author' name='authorName'/>
+          </b:message>
+        </b:if>
+      </div>
+      <div expr:class='&quot;comment-body&quot; + (data:comment.isDeleted ? &quot; deleted&quot; : &quot;&quot;)'>
+        <data:comment.body/>
+      </div>
+      <div class='comment-footer'>
+        <span class='comment-timestamp'>
+          <a expr:href='data:comment.url' title='comment permalink'>
+            <data:comment.timestamp/>
+          </a>
+          <b:include data='comment' name='commentDeleteIcon'/>
+        </span>
+      </div>
+    </div>
+  </div>
+</b:includable>
+        <b:includable id='commentList' var='comments'>
+  <div id='comments-block'>
+    <b:loop values='data:comments' var='comment'>
+      <b:include data='comment' name='commentItem'/>
+    </b:loop>
+  </div>
+</b:includable>
+        <b:includable id='commentPicker' var='post'>
+  <b:if cond='data:post.showThreadedComments'>
+    <b:include data='post' name='threadedComments'/>
+  <b:else/>
+    <b:include data='post' name='comments'/>
+  </b:if>
+</b:includable>
+        <b:includable id='comments' var='post'>
+  <section expr:class='&quot;comments&quot; + (data:post.embedCommentForm ? &quot; embed&quot; : &quot;&quot;)' expr:data-num-comments='data:post.numberOfComments' id='comments'>
+    <a name='comments'/>
+    <b:if cond='data:post.allowComments'>
+
+      <b:include name='commentsTitle'/>
+
+      <div expr:id='data:widget.instanceId + &quot;_comments-block-wrapper&quot;'>
+        <b:include cond='data:post.comments' data='post.comments' name='commentList'/>
+      </div>
+
+      <b:if cond='data:post.commentPagingRequired'>
+        <div class='paging-control-container'>
+          <b:if cond='data:post.hasOlderLinks'>
+            <a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'>
+              <data:messages.oldest/>
+            </a>
+            <a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'>
+              <data:messages.older/>
+            </a>
+          </b:if>
+
+          <span class='comment-range-text'>
+            <data:post.commentRangeText/>
+          </span>
+
+          <b:if cond='data:post.hasNewerLinks'>
+            <a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'>
+              <data:messages.newer/>
+            </a>
+            <a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'>
+              <data:messages.newest/>
+            </a>
+          </b:if>
+        </div>
+      </b:if>
+
+      <div class='footer'>
+        <b:if cond='data:post.embedCommentForm'>
+          <b:if cond='data:post.allowNewComments'>
+            <b:include data='post' name='commentForm'/>
+          <b:else/>
+            <data:post.noNewCommentsText/>
+          </b:if>
+        <b:else/>
+          <b:if cond='data:post.allowComments'>
+            <b:include data='post' name='addComments'/>
+          </b:if>
+        </b:if>
+      </div>
+    </b:if>
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='allowtransparency' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+  </section>
+</b:includable>
+        <b:includable id='commentsTitle'>
+  <h3 class='title'><data:messages.comments/></h3>
+</b:includable>
+        <b:includable id='feedLinks'>
+  <b:if cond='!data:view.isPost'> <!-- Blog feed links -->
+    <b:if cond='data:feedLinks'>
+      <div class='blog-feeds'>
+        <b:include data='feedLinks' name='feedLinksBody'/>
+      </div>
+    </b:if>
+  <b:else/> <!--Post feed links -->
+    <div class='post-feeds'>
+      <b:loop values='data:posts' var='post'>
+        <b:if cond='data:post.allowComments and data:post.feedLinks'>
+          <b:include data='post.feedLinks' name='feedLinksBody'/>
+        </b:if>
+      </b:loop>
+    </div>
+  </b:if>
+</b:includable>
+        <b:includable id='feedLinksBody' var='links'>
+  <div class='feed-links'>
+  <data:messages.subscribeTo/>
+  <b:loop values='data:links' var='f'>
+     <a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'><data:f.name/> (<data:f.feedType/>)</a>
+  </b:loop>
+  </div>
+</b:includable>
+        <b:includable id='homePageLink'>
+  <a class='home-link' expr:href='data:blog.homepageUrl'>
+    <data:messages.home/>
+  </a>
+</b:includable>
+        <b:includable id='iframeComments' var='post'>
+  <!-- G+ comments, no longer available. The includable is retained for backwards-compatibility. -->
+</b:includable>
+        <b:includable id='inlineAd' var='post'>
+  <b:if cond='!data:view.isPreview'>
+    <b:if cond='data:this.adCode or data:this.adClientId or data:blog.adsenseClientId'>
+      <!-- Ad -->
+      <div class='inline-ad'>
+        <b:if cond='data:this.adCode != &quot;&quot;'>
+          <data:this.adCode/>
+        <b:else/>
+          <b:include cond='data:this.adClientId or data:blog.adsenseClientId' name='defaultAdUnit'/>
+        </b:if>
+      </div>
+    </b:if>
+  <b:else/>
+    <div class='inline-ad'>
+      <div class='inline-ad-placeholder'>
+        <span><b:message name='messages.adsGoHere'/></span>
+      </div>
+    </div>
+  </b:if>
+</b:includable>
+        <b:includable id='nextPageLink'>
+  <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:messages.olderPosts'>
+    <data:messages.olderPosts/>
+  </a>
+</b:includable>
+        <b:includable id='post' var='post'>
+  <div class='post'>
+    <b:include data='post' name='postMeta'/>
+    <b:include data='post' name='postTitle'/>
+    <b:include name='headerByline'/>
+    <b:if cond='data:view.isSingleItem'>
+      <b:include data='post' name='postBody'/>
+    <b:else/>
+      <b:include data='post' name='postBodySnippet'/>
+      <b:include data='post' name='postJumpLink'/>
+    </b:if>
+    <b:include data='post' name='postFooter'/>
+  </div>
+</b:includable>
+        <b:includable id='postBody' var='post'>
+  <!-- If metaDescription is empty, use the post body as the schema.org description too, for G+/FB snippeting. -->
+  <div class='post-body entry-content float-container' expr:id='&quot;post-body-&quot; + data:post.id'>
+    <data:post.body/>
+  </div>
+</b:includable>
+        <b:includable id='postBodySnippet' var='post'>
+  <b:include data='post' name='postBody'/>
+</b:includable>
+        <b:includable id='postCommentsAndAd' var='post'>
+  <article class='post-outer-container'>
+    <!-- Post title and body -->
+    <div class='post-outer'>
+      <b:include data='post' name='post'/>
+    </div>
+
+    <!-- Comments -->
+    <b:include cond='data:view.isSingleItem' data='post' name='commentPicker'/>
+
+    <!-- Show ad inside post container, after comments, if single item. -->
+    <b:include cond='data:view.isSingleItem and data:post.includeAd' data='post' name='inlineAd'/>
+  </article>
+
+  <!-- Show ad outside post container (between posts) for feed pages. -->
+  <b:include cond='data:view.isMultipleItems and data:post.includeAd' data='post' name='inlineAd'/>
+</b:includable>
+        <b:includable id='postCommentsLink'>
+  <b:if cond='data:view.isMultipleItems'>
+    <span class='byline post-comment-link container'>
+      <b:include cond='data:post.commentSource != 1' name='commentsLink'/>
+    </span>
+  </b:if>
+</b:includable>
+        <b:includable id='postFooter' var='post'>
+  <div class='post-footer'>
+    <b:include name='footerBylines'/>
+    <b:include data='post' name='postFooterAuthorProfile'/>
+  </div>
+</b:includable>
+        <b:includable id='postFooterAuthorProfile' var='post'>
+  <b:if cond='data:post.author.aboutMe and data:view.isPost'>
+    <div class='author-profile'>
+      <b:if cond='data:post.author.authorPhoto.url'>
+        <img class='author-image' expr:src='data:post.author.authorPhoto.url' width='50px'/>
+        <div class='author-about'>
+          <b:include data='post' name='aboutPostAuthor'/>
+        </div>
+      <b:else/>
+        <b:include data='post' name='aboutPostAuthor'/>
+      </b:if>
+    </div>
+  </b:if>
+</b:includable>
+        <b:includable id='postHeader' var='post'>
+  <b:include name='headerByline'/>
+</b:includable>
+        <b:includable id='postMeta' var='post'>
+  <b:include data='post' name='postMetadataJSON'/>
+</b:includable>
+        <b:includable id='postPagination'>
+  <div class='blog-pager container' id='blog-pager'>
+    <b:include cond='data:newerPageUrl' name='previousPageLink'/>
+    <b:include cond='data:olderPageUrl' name='nextPageLink'/>
+    <b:include cond='data:view.url != data:blog.homepageUrl' name='homePageLink'/>
+  </div>
+</b:includable>
+        <b:includable id='postTitle' var='post'>
+  <a expr:name='data:post.id'/>
+  <b:if cond='data:post.title != &quot;&quot;'>
+    <h3 class='post-title entry-title'>
+      <b:if cond='data:post.link or (data:post.url and data:view.url != data:post.url)'>
+        <a expr:href='data:post.link ?: data:post.url'><data:post.title/></a>
+      <b:else/>
+        <data:post.title/>
+      </b:if>
+    </h3>
+  </b:if>
+</b:includable>
+        <b:includable id='previousPageLink'>
+  <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:messages.newerPosts'>
+    <data:messages.newerPosts/>
+  </a>
+</b:includable>
+        <b:includable id='threadedCommentForm' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <h4 id='comment-post-message'><data:messages.postAComment/></h4>
+    <b:if cond='data:this.messages.blogComment != &quot;&quot;'>
+      <p><data:this.messages.blogComment/></p>
+    </b:if>
+    <b:include data='post' name='commentFormIframeSrc'/>
+    <iframe allowtransparency='allowtransparency' class='blogger-iframe-colorize blogger-comment-from-post' expr:height='data:cmtIframeInitialHeight ?: &quot;90px&quot;' frameborder='0' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;);
+    </script>
+  </div>
+</b:includable>
+        <b:includable id='threadedCommentJs' var='post'>
+  <script async='async' expr:src='data:post.commentSrc' type='text/javascript'/>
+  <b:template-script inline='true' name='threaded_comments'/>
+  <script type='text/javascript'>
+    blogger.widgets.blog.initThreadedComments(
+        <data:post.commentJso/>,
+        <data:post.commentMsgs/>,
+        <data:post.commentConfig/>);
+  </script>
+</b:includable>
+        <b:includable id='threadedComments' var='post'>
+  <section class='comments threaded' expr:data-embed='data:post.embedCommentForm' expr:data-num-comments='data:post.numberOfComments' id='comments'>
+    <a name='comments'/>
+
+    <b:include name='commentsTitle'/>
+
+    <div class='comments-content'>
+      <b:if cond='data:post.embedCommentForm'>
+        <b:include data='post' name='threadedCommentJs'/>
+      </b:if>
+      <div id='comment-holder'>
+         <data:post.commentHtml/>
+      </div>
+    </div>
+
+    <p class='comment-footer'>
+      <b:if cond='data:post.allowNewComments'>
+        <b:include data='post' name='threadedCommentForm'/>
+      <b:else/>
+        <data:post.noNewCommentsText/>
+      </b:if>
+      <b:if cond='data:post.showManageComments'>
+        <b:include data='post' name='manageComments'/>
+      </b:if>
+    </p>
+
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='allowtransparency' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+  </section>
+</b:includable>
+        <b:includable id='tooltipCss'>
+  <!-- LINT.IfChange -->
+  <style>
+    .post-body a.b-tooltip-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .post-body a.b-tooltip-container .b-tooltip {
+      display: block !important;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translate(-20%, 1px);
+      visibility: hidden;
+      opacity: 0;
+      z-index: 1;
+      transition: opacity 0.2s ease-in-out;
+    }
+
+    .post-body a.b-tooltip-container .b-tooltip iframe {
+      width: 200px;
+      height: 198px;
+      max-width: none;
+      border: none;
+      border-radius: 20px;
+      box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    @media (hover: hover) {
+      .post-body a.b-tooltip-container:hover .b-tooltip {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+  </style>
+  <!-- LINT.ThenChange(//depot/google3/java/com/google/blogger/b2/layouts/widgets/v2-style.css) -->
+</b:includable>
+      </b:widget>
+    </b:section>
+  </main>
+  
+  <aside aria-label='Sidebar' class='sidebar' id='sidebar-wrapper'>
+    <!-- Header Sidebar Section (Bisa di-customize di Tata Letak) -->
+    <b:section class='sidebar-header-section' id='sidebarHeader' maxwidgets='5' name='Sidebar Header' showaddelement='yes'/>
+
+    <div class='trust-card widget'><h3><i class='fa fa-shield'/> Shop more safely</h3><p>You will be redirected to the official merchant to complete purchase and payment.</p></div>
+    
+    <b:section class='sidebar-section sidebar common-widget' id='sidebar1' maxwidgets='10' name='Sidebar Right' showaddelement='yes'>
+      <b:widget id='HTML1' locked='false' title='Custom HTML' type='HTML' version='2' visible='false'>
+        <b:widget-settings>
+          <b:widget-setting name='content'><![CDATA[<p>Add your custom HTML, banner, disclosure, promotion, or other content here.</p>]]></b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+          <b:if cond='data:title != &quot;&quot;'>
+            <div class='widget-title'><h3 class='title'><data:title/></h3></div>
+          </b:if>
+          <div class='widget-content'>
+            <data:content/>
+          </div>
+        </b:includable>
+      </b:widget>
+      <b:widget id='HTML2' locked='false' title='Popular Products' type='HTML' version='2' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='content'><![CDATA[<div id="evx-sidebar-popular"><div class="evx-popular-loading" style="padding:10px;color:#888;font-size:12px;">Loading popular products...</div></div>]]></b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+          <b:if cond='data:title != &quot;&quot;'>
+            <div class='widget-title'><h3 class='title'><data:title/></h3></div>
+          </b:if>
+          <div class='widget-content' style='padding:4px 12px!important;'>
+            <div id='evx-sidebar-popular'>
+              <div class='evx-popular-loading' style='padding:10px;color:#888;font-size:12px;'>Loading popular products...</div>
+            </div>
+          </div>
+        </b:includable>
+      </b:widget>
+      <b:widget id='Label1' locked='false' title='Main Category' type='Label' version='2' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
+          <b:widget-setting name='display'>LIST</b:widget-setting>
+          <b:widget-setting name='selectedLabelsList'/>
+          <b:widget-setting name='showType'>ALL</b:widget-setting>
+          <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+          <b:if cond='data:title != &quot;&quot;'>
+            <h2><data:title/></h2>
+          </b:if>
+          <div expr:class='&quot;widget-content &quot; + data:display + &quot;-label-widget-content&quot;'>
+            <b:if cond='data:display == &quot;list&quot;'>
+              <ul>
+                <b:loop values='data:labels' var='label'>
+                  <li>
+                    <b:if cond='data:blog.url == data:label.url'>
+                      <span expr:dir='data:blog.languageDirection'><data:label.name/></span>
+                    <b:else/>
+                      <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
+                    </b:if>
+                    <b:if cond='data:showFreqNumbers'>
+                      <span dir='ltr'>(<data:label.count/>)</span>
+                    </b:if>
+                  </li>
+                </b:loop>
+              </ul>
+            <b:else/>
+              <b:loop values='data:labels' var='label'>
+                <span expr:class='&quot;label-size label-size-&quot; + data:label.cssSize'>
+                  <b:if cond='data:blog.url == data:label.url'>
+                    <span expr:dir='data:blog.languageDirection'><data:label.name/></span>
+                  <b:else/>
+                    <a expr:dir='data:blog.languageDirection' expr:href='data:label.url'><data:label.name/></a>
+                  </b:if>
+                  <b:if cond='data:showFreqNumbers'>
+                    <span class='label-count' dir='ltr'>(<data:label.count/>)</span>
+                  </b:if>
+                </span>
+              </b:loop>
+            </b:if>
+          </div>
+        </b:includable>
+        <b:includable id='cloud'>
+  <b:loop values='data:labels' var='label'>
+    <span class='label-size'>
+      <b:class expr:name='&quot;label-size-&quot; + data:label.cssSize'/>
+      <a class='label-name' expr:href='data:label.url'>
+        <data:label.name/>
+        <b:if cond='data:this.showFreqNumbers'>
+          <span class='label-count'><data:label.count/></span>
+        </b:if>
+      </a>
+    </span>
+  </b:loop>
+</b:includable>
+        <b:includable id='content'>
+  <div class='widget-content'>
+    <b:class expr:name='data:this.display + &quot;-label-widget-content&quot;'/>
+    <b:include cond='data:this.display == &quot;list&quot;' name='list'/>
+    <b:include cond='data:this.display == &quot;cloud&quot;' name='cloud'/>
+  </div>
+</b:includable>
+        <b:includable id='list'>
+  <ul>
+    <b:loop values='data:labels' var='label'>
+      <li>
+        <a class='label-name' expr:href='data:label.url'>
+          <data:label.name/>
+          <b:if cond='data:this.showFreqNumbers'>
+            <span class='label-count'><data:label.count/></span>
+          </b:if>
+        </a>
+      </li>
+    </b:loop>
+  </ul>
+</b:includable>
+      </b:widget>
+    </b:section>
+  </aside>
+</div>
+
+<footer class='footer'>
+  <div class='site-shell footer-main'>
+    <!-- Footer Section Widgets (Dapat di-customize via Tata Letak) -->
+    <b:section class='footer-widgets-section' id='footerWidgets' maxwidgets='3' name='Footer Widgets' showaddelement='yes'>
+      <b:widget id='HTML3' locked='false' title='About Us' type='HTML' version='2' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='content'><![CDATA[<p>Discover popular products and the latest offers for you.</p>]]></b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+          <b:if cond='data:title != &quot;&quot;'><h2><data:title/></h2></b:if>
+          <div class='widget-content'><data:content/></div>
+        </b:includable>
+      </b:widget>
+    </b:section>
+
+    <div><h3>Navigation</h3><div class='footer-menu'><a expr:href='data:blog.homepageUrl'>Home</a><a href='/p/about.html'>About</a><a href='/p/contact.html'>Contact</a></div></div>
+    <div><h3>Buyer Guide</h3><div class='footer-menu'><span>Secure checkout at merchant</span><span>Prices may change</span><a href='/p/disclosure.html'>Affiliate disclosure</a></div></div>
+  </div>
+  <div class='site-shell copyright'><div>EVX theme for Blogger</div><div>&#169; <data:blog.title/></div></div>
+</footer>
+
+<div class='back-top'><i class='fa fa-angle-up'/></div>
+<script type='text/javascript'>//<![CDATA[
+(function(){
+  var nav=document.querySelector('.nav-wrap'),tog=document.querySelector('.menu-toggle'),back=document.querySelector('.back-top');
+  if(tog&&nav)tog.onclick=function(){nav.classList.toggle('open')};
+  window.addEventListener('scroll',function(){if(back)back.classList.toggle('show',window.pageYOffset>300)},{passive:true});
+  if(back)back.onclick=function(){window.scrollTo({top:0,behavior:'smooth'})};
+
+  document.querySelectorAll('.evx-search-form').forEach(function(form){
+    form.addEventListener('submit',function(ev){
+      var input=form.querySelector('input[name="q"]');
+      var q=input?String(input.value||'').trim():'';
+      if(!q)return;
+      ev.preventDefault();
+      location.href='/search?q='+encodeURIComponent(q);
+    });
+  });
+
+  function esc(v){return String(v||'').replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+  
+  function schemaText(root,selector){
+    var el=root.querySelector(selector);
+    return el ? String(el.textContent||'').replace(/\s+/g,' ').trim() : '';
+  }
+  function schemaNumber(v){
+    var m=String(v||'').replace(/,/g,'').match(/-?\d+(?:\.\d+)?/);
+    return m ? m[0] : '';
+  }
+
+  function injectProductSchema(root,title){
+    if(!root)return;
+    var d=root.dataset||{};
+    var img=d.image||'';
+    if(!img){
+      var im=root.querySelector('.evx-main-image,.evx-image-box img');
+      if(im)img=im.getAttribute('src')||'';
+    }
+    var desc=schemaText(root,'.evx-description');
+    var price=schemaNumber(d.price||schemaText(root,'.evx-price'));
+    var currency=(d.currency||'USD').toUpperCase();
+    var canonical=document.querySelector('link[rel="canonical"]');
+    var pageUrl=canonical&&canonical.href ? canonical.href : location.href;
+    var buy=d.buy||'';
+    var productId=String(d.productId||'').trim();
+    var productUrl=productId ? 'https://www.aliexpress.com/item/'+encodeURIComponent(productId)+'.html' : pageUrl;
+    var schema={
+      '@context':'https://schema.org',
+      '@type':'Product',
+      '@id':productUrl+'#product',
+      'name':title||schemaText(root,'.evx-title'),
+      'url':productUrl,
+      'sku':d.productId||'',
+      'image':img?[img]:[],
+      'description':desc,
+      'offers':{
+        '@type':'Offer',
+        'url':productUrl,
+        'priceCurrency':currency,
+        'price':price,
+        'availability':'https://schema.org/InStock'
+      }
+    };
+    var rating=parseFloat(String(d.rating||'').replace(',','.'));
+    var reviews=parseFloat(String(d.reviews||'').replace(/[^0-9.\-]/g,''));
+    var sold=parseFloat(String(d.sold||'').replace(/[^0-9.\-]/g,''));
+
+    if(isFinite(rating)&&rating>0&&isFinite(reviews)&&reviews>0){
+      schema.aggregateRating={'@type':'AggregateRating','ratingValue':rating.toFixed(1),'bestRating':'5','worstRating':'1','reviewCount':String(Math.floor(reviews))};
+    }
+    if(isFinite(sold)&&sold>0){
+      schema.interactionStatistic={'@type':'InteractionCounter','interactionType':{'@type':'BuyAction'},'userInteractionCount':Math.floor(sold)};
+      schema.additionalProperty=schema.additionalProperty||[];
+      schema.additionalProperty.push({'@type':'PropertyValue','name':'Sold','value':String(Math.floor(sold))});
+    }
+    if(!schema.sku)delete schema.sku;
+    if(!schema.image.length)delete schema.image;
+    if(!schema.description)delete schema.description;
+    if(!schema.offers.price)delete schema.offers.price;
+    var old=document.getElementById('evx-product-schema');
+    if(old)old.remove();
+    var script=document.createElement('script');
+    script.id='evx-product-schema';
+    script.type='application/ld+json';
+    script.textContent=JSON.stringify(schema).replace(/<\//g,'<\\/');
+    document.head.appendChild(script);
+  }
+
+  // SCRIPT RENDER POPULAR PRODUCTS DI SIDEBAR
+
+  function lowestRupiah(v){
+    var raw=String(v||'').trim();
+    if(!raw)return '';
+    var vals=[];
+    var rp=/Rp\s*([\d.]+)/gi,m;
+    while((m=rp.exec(raw))) vals.push(parseInt(m[1].replace(/\./g,''),10));
+    if(!vals.length){
+      var parts=raw.split(/\s*-\s*/);
+      parts.forEach(function(x){
+        var digits=String(x).replace(/[^0-9]/g,'');
+        var n=parseInt(digits,10);
+        if(isFinite(n)&&n>0) vals.push(n);
+      });
+    }
+    if(!vals.length)return '';
+    var n=Math.min.apply(Math,vals.filter(function(x){return isFinite(x)&&x>0;}));
+    return isFinite(n) ? 'Rp'+n.toLocaleString('id-ID') : '';
+  }
+
+  var sidebarPopular = document.getElementById('evx-sidebar-popular');
+  if(sidebarPopular){
+    fetch('/feeds/posts/default?alt=json&max-results=5', {credentials:'same-origin'})
+      .then(function(r){ return r.json(); })
+      .then(function(json){
+        var entries = json.feed && json.feed.entry || [];
+        if(!entries.length){
+          sidebarPopular.innerHTML = '<div style="padding:10px;color:#888;font-size:12px;">No products found.</div>';
+          return;
+        }
+        var html = '<div class="popular-products-list">';
+        entries.forEach(function(e){
+          var title = e.title && e.title.$t || 'Untitled';
+          var links = e.link || [];
+          var url = '#';
+          for(var i=0; i<links.length; i++){ if(links[i].rel === 'alternate'){ url = links[i].href; break; } }
+          
+          var content = e.content && e.content.$t || e.summary && e.summary.$t || '';
+          var tmp = document.createElement('div');
+          tmp.innerHTML = content;
+          var box = tmp.querySelector('.evx-product');
+          var d = box ? (box.dataset || {}) : {};
+          var img = d.image || '';
+          if(!img){ var im = tmp.querySelector('img'); if(im) img = im.getAttribute('src') || ''; }
+          if(!img) img = 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2272%22 height=%2272%22%3E%3Crect width=%22100%25%22 height=%22100%25%22 fill=%22%23fafbfc%22/%3E%3C/svg%3E';
+          var price = String(d.price || '').trim();
+          function sidebarRupiah(v){ return lowestRupiah(v); }
+          price = sidebarRupiah(price);
+
+          var rating=parseFloat(String(d.rating||'').replace(',','.'));
+          var reviewRaw=String(d.reviews||d.reviewCount||d.ratingCount||'').trim();
+          var reviews=parseInt(reviewRaw.replace(/[^0-9]/g,''),10);
+          if(!(isFinite(rating)&&rating>0)){
+            var rv=tmp.querySelector('[itemprop="ratingValue"]');
+            if(rv)rating=parseFloat(String(rv.getAttribute('content')||rv.textContent||'').replace(',','.'));
+          }
+          if(!(reviews>0)){
+            var rc=tmp.querySelector('[itemprop="reviewCount"],[itemprop="ratingCount"]');
+            if(rc)reviews=parseInt(String(rc.getAttribute('content')||rc.textContent||'').replace(/[^0-9]/g,''),10);
+          }
+          var sidebarRating='';
+          if((isFinite(rating)&&rating>0)||reviews>0){
+            sidebarRating='<div class="popular-product-rating" style="display:flex;align-items:center;gap:4px;margin-top:4px;font-size:10px;line-height:1.2;color:#8d8580;white-space:nowrap;">'+
+              (isFinite(rating)&&rating>0?'<span style="color:#b69a72;">★</span><strong style="color:#625b56;">'+esc(rating.toFixed(2).replace(/0$/,'').replace(/\.$/,''))+'</strong>':'')+
+              (reviews>0?'<span>· '+esc(reviews.toLocaleString('id-ID'))+' ulasan</span>':'')+
+            '</div>';
+          }
+
+          html += '<div class="popular-product-item" style="display:grid;grid-template-columns:62px minmax(0,1fr);gap:10px;align-items:center;padding:9px 0;border-bottom:1px solid #eef1f3;">' +
+                    '<a class="popular-product-thumb" href="'+esc(url)+'" style="width:62px;height:62px;display:block;overflow:hidden;border:1px solid #e7eaee;border-radius:8px;background:#fafbfc;">' +
+                      '<img src="'+esc(img)+'" alt="'+esc(title)+'" style="width:100%;height:100%;object-fit:cover;display:block;" loading="lazy"/>' +
+                    '</a>' +
+                    '<div style="min-width:0;">' +
+                      '<a class="popular-product-title" href="'+esc(url)+'" style="display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;color:#20262e;font-size:11.5px;line-height:1.4;font-weight:650;text-decoration:none;">'+esc(title)+'</a>' +
+                      sidebarRating +
+                      (price ? '<div class="popular-product-price" style="margin-top:4px;color:#8f5963;font-size:12px;font-weight:800;">'+esc(price)+'</div>' : '') +
+                    '</div>' +
+                  '</div>';
+        });
+        html += '</div>';
+        sidebarPopular.innerHTML = html;
+      })
+      .catch(function(){
+        sidebarPopular.innerHTML = '<div style="padding:10px;color:#888;font-size:12px;">Failed to load products.</div>';
+      });
+  }
+
+  var isItemView = document.body.classList.contains('evx-item-view');
+  if(isItemView) {
+    var root = document.querySelector('.evx-product-page') || document.querySelector('.evx-product');
+    if(root) {
+      injectProductSchema(root, document.title.split(' - ')[0]);
+      var mainImg=root.querySelector('.evx-main-image')||root.querySelector('.evx-image-box img');
+      var mainLink=root.querySelector('.evx-main-link')||root.querySelector('.evx-image-box a');
+      root.querySelectorAll('.evx-thumb').forEach(function(a){
+        a.addEventListener('click',function(ev){
+          ev.preventDefault();
+          root.querySelectorAll('.evx-thumb').forEach(function(x){x.classList.remove('active')});
+          a.classList.add('active');
+          if(mainImg)mainImg.src=a.href;
+          if(mainLink)mainLink.href=a.href;
+        });
+      });
+    }
+    return;
+  }
+
+  var app=document.getElementById('evx-feed-app');
+  if(!app)return;
+
+  function entryLink(e){
+    var links=e.link||[];
+    for(var i=0;i<links.length;i++)if(links[i].rel==='alternate')return links[i].href;
+    return '#';
+  }
+  function htmlToDoc(html){var d=document.createElement('div'); d.innerHTML=html||''; return d;}
+  function productData(html){
+    var d=htmlToDoc(html), box=d.querySelector('.evx-product'), data=box?(box.dataset||{}):{};
+    var img=data.image||'';
+    if(!img){var im=d.querySelector('img');if(im)img=im.getAttribute('src')||''}
+    return {doc:d,box:box,data:data,image:img};
+  }
+  function homeDiscountLabel(v){
+    var s=String(v||'').trim();
+    if(!s)return '';
+    var m=s.match(/-?\d+(?:\.\d+)?/);
+    if(!m)return '';
+    var n=parseFloat(m[0]);
+    if(!isFinite(n)||n<=0)return '';
+    if(n>100)n=100;
+    return (Math.round(n*10)/10).toString().replace(/\.0$/,'')+'% OFF';
+  }
+
+  function renderCard(e){
+    var title=e.title&&e.title.$t||'Untitled';
+    var url=entryLink(e);
+    var content=e.content&&e.content.$t||e.summary&&e.summary.$t||'';
+    var p=productData(content);
+    var d=p.data||{};
+    var price=String(d.price||'').trim();
+    var oldPrice=String(d.oldPrice||'').trim();
+    var discount=homeDiscountLabel(d.discount||'');
+    var store=String(d.store||d.storeName||d.shop||'').trim();
+    var buy=String(d.buy||'').trim();
+    var rating=parseFloat(String(d.rating||'').replace(',','.'));
+    var reviewRaw=String(d.reviews||d.reviewCount||d.ratingCount||'').trim();
+    var reviews=parseInt(reviewRaw.replace(/[^0-9]/g,''),10);
+
+    // Fallback: posting lama/baru bisa menyimpan rating & ulasan di HTML/schema,
+    // bukan di data-* root. Ambil langsung dari isi posting agar card home tetap lengkap.
+    if(!(isFinite(rating)&&rating>0)){
+      var rv=p.doc.querySelector('[itemprop="ratingValue"]');
+      if(rv) rating=parseFloat(String(rv.getAttribute('content')||rv.textContent||'').replace(',','.'));
+    }
+    if(!(reviews>0)){
+      var rc=p.doc.querySelector('[itemprop="reviewCount"],[itemprop="ratingCount"]');
+      if(rc) reviews=parseInt(String(rc.getAttribute('content')||rc.textContent||'').replace(/[^0-9]/g,''),10);
+    }
+    if(!(reviews>0)){
+      var txt=(p.doc.body&&p.doc.body.textContent)||'';
+      var rm=txt.match(/([\d.,]+\s*(?:RB|JT|K|M)?)\s*ulasan(?:\s*Shopee)?/i);
+      if(!rm) rm=txt.match(/([\d.,]+\s*(?:RB|JT|K|M)?)\s*penilaian/i);
+      if(rm){
+        var x=rm[1].toUpperCase().replace(/\s+/g,'');
+        var mult=1;
+        if(/RB$/.test(x)){mult=1000;x=x.replace(/RB$/,'');}
+        else if(/JT$/.test(x)){mult=1000000;x=x.replace(/JT$/,'');}
+        else if(/K$/.test(x)){mult=1000;x=x.replace(/K$/,'');}
+        else if(/M$/.test(x)){mult=1000000;x=x.replace(/M$/,'');}
+        var num=Number(x.replace(/\./g,'').replace(',','.'));
+        if(isFinite(num)) reviews=Math.round(num*mult);
+      }
+    }
+    var image=p.image||'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22500%22 height=%22500%22%3E%3Crect width=%22100%25%22 height=%22100%25%22 fill=%22%23fafafa%22/%3E%3C/svg%3E';
+    function rupiah(v){ return lowestRupiah(v); }
+    price=rupiah(price);
+    oldPrice=rupiah(oldPrice);
+
+    var discountBadge=discount ? '<span class="feed-card-discount">'+esc(discount)+'</span>' : '';
+    var storeHtml='<div class="feed-card-meta"><span class="aprinna-card-store"><i class="fa fa-shopping-bag"></i>&#160; Aprinna Store</span></div>';
+    var ratingHtml='';
+    if((isFinite(rating)&&rating>0)||reviews>0){
+      var full=(isFinite(rating)&&rating>0)?Math.max(0,Math.min(5,Math.round(rating))):0;
+      var stars=full?('★★★★★'.slice(0,full)+'☆☆☆☆☆'.slice(0,5-full)):'';
+      ratingHtml='<div class="feed-card-rating">'+(stars?'<span class="stars">'+stars+'</span>':'')+(isFinite(rating)&&rating>0?'<strong>'+esc(rating.toFixed(2).replace(/0$/,'').replace(/\.$/,''))+'</strong>':'')+(reviews>0?'<span class="feed-card-reviews">· '+esc(reviews.toLocaleString('id-ID'))+' ulasan</span>':'')+'</div>';
+    }
+
+    var priceHtml='';
+    if(price||oldPrice){
+      priceHtml='<div class="feed-card-price-row">'+(price?'<span class="feed-card-price">'+esc(price)+'</span>':'')+(oldPrice&&oldPrice!==price?'<span class="feed-card-old-price">'+esc(oldPrice)+'</span>':'')+'</div>';
+    }else{
+      priceHtml='<div class="feed-card-price-row"><span class="feed-card-price">View product</span></div>';
+    }
+
+    var actionUrl=buy||url;
+    var actionAttrs=buy?' target="_blank" rel="noopener follow"':'';
+
+    return '<article class="feed-card"><a class="feed-card-image" href="'+esc(url)+'" rel="follow">'+discountBadge+'<span class="feed-card-heart"><i class="fa fa-heart-o"></i></span><img src="'+esc(image)+'" alt="'+esc(title)+'" loading="lazy" decoding="async" width="350" height="350"></a><div class="feed-card-body">'+storeHtml+'<h2 class="feed-card-title"><a href="'+esc(url)+'" rel="follow">'+esc(title)+'</a></h2>'+ratingHtml+priceHtml+'</div><div class="feed-card-actions"><a class="view" href="'+esc(url)+'" rel="follow"><i class="fa fa-info-circle"></i>&#160; Detail</a><a class="details aprinna-buy-now" href="'+esc(actionUrl)+'"'+actionAttrs+' aria-label="Buy Now" title="Buy Now"><i class="fa fa-shopping-bag"></i><span>Buy Now</span></a></div></article>';
+  }
+
+  function feedTotal(feed){var n=parseInt(feed&&feed.openSearch$totalResults&&feed.openSearch$totalResults.$t,10); return isFinite(n)&&n>0?n:0;}
+  function pageHref(page){
+    var u=new URL(location.href);
+    if(page<=1)u.searchParams.delete('page'); else u.searchParams.set('page',String(page));
+    return u.pathname+(u.searchParams.toString()?'?'+u.searchParams.toString():'')+(u.hash||'');
+  }
+  
+  function renderPagination(current,totalPages,totalItems,pageSize){
+    if(totalPages<=1)return '';
+    var pages=[];
+    function pushPage(n){if(n>=1&&n<=totalPages&&pages.indexOf(n)===-1)pages.push(n);}
+    pushPage(1); pushPage(2);
+    for(var n=current-2;n<=current+2;n++)pushPage(n);
+    pushPage(totalPages-1); pushPage(totalPages);
+    pages.sort(function(a,b){return a-b});
+
+    var html='<nav class="evx-pagination" aria-label="Navigasi halaman produk">';
+    html+= current>1 ? '<a class="prev" href="'+esc(pageHref(current-1))+'" rel="prev"><i class="fa fa-angle-left" aria-hidden="true"></i>&#160; Sebelumnya</a>' : '<span class="prev disabled"><i class="fa fa-angle-left" aria-hidden="true"></i>&#160; Sebelumnya</span>';
+
+    var last=0;
+    pages.forEach(function(n){
+      if(last && n-last>1)html+='<span class="dots">…</span>';
+      if(n===current) html+='<span class="current" aria-current="page">'+n+'</span>';
+      else html+='<a class="'+((n!==1&&n!==totalPages&&Math.abs(n-current)>1)?' page-wide':'')+'" href="'+esc(pageHref(n))+'" aria-label="Halaman '+n+'">'+n+'</a>';
+      last=n;
+    });
+
+    html+= current<totalPages ? '<a class="next" href="'+esc(pageHref(current+1))+'" rel="next">Berikutnya&#160; <i class="fa fa-angle-right" aria-hidden="true"></i></a>' : '<span class="next disabled">Berikutnya&#160; <i class="fa fa-angle-right" aria-hidden="true"></i></span>';
+    html+='</nav><div class="evx-page-info">Menampilkan '+(((current-1)*pageSize)+1)+'–'+Math.min(current*pageSize,totalItems)+' dari '+totalItems+' produk</div>';
+    return html;
+  }
+
+  function fail(err){app.innerHTML='<div class="evx-error"><strong>Posts could not be loaded.</strong><br>'+esc(err&&err.message||err)+'</div>';}
+
+  var params=new URLSearchParams(location.search||'');
+  var searchQuery=String(params.get('q')||'').trim();
+
+  // Blogger label route: /search/label/Nama%20Label
+  var labelName='';
+  var labelMatch=location.pathname.match(/^\/search\/label\/([^/?#]+)/i);
+  if(labelMatch){
+    try{ labelName=decodeURIComponent(labelMatch[1].replace(/\+/g,' ')); }
+    catch(_e){ labelName=labelMatch[1]; }
+  }
+
+  var currentPage=parseInt(params.get('page')||'1',10);
+  if(!isFinite(currentPage)||currentPage<1)currentPage=1;
+  var pageSize=12;
+
+  if(searchQuery){
+    document.querySelectorAll('.evx-search-form input[name="q"]').forEach(function(input){input.value=searchQuery;});
+  }
+
+  var startIndex=((currentPage-1)*pageSize)+1;
+  var endpoint='/feeds/posts/default';
+  if(labelName) endpoint+='/-/'+encodeURIComponent(labelName);
+  endpoint+='?alt=json&max-results='+pageSize+'&start-index='+startIndex;
+  if(searchQuery) endpoint+='&q='+encodeURIComponent(searchQuery);
+
+  fetch(endpoint,{credentials:'same-origin'})
+    .then(function(r){if(!r.ok)throw new Error('Feed HTTP '+r.status);return r.json()})
+    .then(function(json){
+      var entries=json.feed&&json.feed.entry||[];
+      if(!entries.length){
+        if(searchQuery) app.innerHTML='<div class="evx-search-state"><h1>Search Results</h1><p>No products found for &quot;'+esc(searchQuery)+'&quot;.</p></div>';
+        else app.innerHTML='<div class="evx-error">No published posts found.</div>';
+        return;
+      }
+      var heading=searchQuery
+        ? '<div class="evx-search-state"><h1>Hasil Pencarian</h1><p>Hasil untuk &quot;'+esc(searchQuery)+'&quot;</p></div>'
+        : labelName
+          ? '<div class="section-head"><div><h1>'+esc(labelName)+'</h1><p>Produk dalam label '+esc(labelName)+'.</p></div></div>'
+          : '<div class="section-head"><div><h1>PRODUK KAMI</h1><p>Temukan produk populer dan penawaran terbaru untuk Anda.</p></div></div>';
+      var totalItems=feedTotal(json.feed);
+      var totalPages=totalItems?Math.ceil(totalItems/pageSize):1;
+      if(totalPages>0 && currentPage>totalPages){ location.replace(pageHref(totalPages)); return; }
+      var pager=renderPagination(currentPage,totalPages,totalItems,pageSize);
+      app.innerHTML=heading+'<div class="feed-grid">'+entries.map(renderCard).join('')+'</div>'+pager;
+    }).catch(fail);
+})();
+//]]></script>
+</body></html>
