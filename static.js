@@ -1,0 +1,7 @@
+document.addEventListener('DOMContentLoaded',function(){
+ const toggle=document.querySelector('.menu-toggle'), nav=document.querySelector('.nav-wrap'); if(toggle&&nav)toggle.addEventListener('click',()=>nav.classList.toggle('open'));
+ const bt=document.querySelector('.back-top'); if(bt){window.addEventListener('scroll',()=>bt.classList.toggle('show',scrollY>300));bt.addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));}
+ document.querySelectorAll('.evx-thumb').forEach(t=>t.addEventListener('click',function(e){e.preventDefault();const img=this.querySelector('img');const main=document.querySelector('.evx-main-image');if(img&&main){main.src=img.src;document.querySelectorAll('.evx-thumb').forEach(x=>x.classList.remove('active'));this.classList.add('active')}}));
+ const forms=document.querySelectorAll('.searchbar'); forms.forEach(f=>f.addEventListener('submit',function(e){e.preventDefault();const q=(this.querySelector('input')||{}).value||''; if(q) location.href=(location.pathname.includes('/products/')?'../':'')+'index.html?q='+encodeURIComponent(q)}));
+ const params=new URLSearchParams(location.search), q=(params.get('q')||'').toLowerCase(), cat=(params.get('category')||'').toLowerCase(); if(q||cat){document.querySelectorAll('.feed-card').forEach(c=>{const text=c.innerText.toLowerCase(); c.style.display=(!q||text.includes(q))?'':'none';});}
+});
